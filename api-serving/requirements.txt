@@ -1,0 +1,7 @@
+beautifulsoup4
+pandas
+requests
+fuzzywuzzy
+rapidfuzz
+python-Levenshtein
+pyqt5

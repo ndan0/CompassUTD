@@ -1,0 +1,2056 @@
+code,name,prefix
+CS 4349,Advanced Algorithm Design and Analysis,CS
+CS 4334,Numerical Analysis,CS
+CS 4332,Introduction to Programming Video Games,CS
+CS 4315,Intelligent Systems Design,CS
+CS 4314,Intelligent Systems Analysis,CS
+CS 4313,Neural Net Mathematics,CS
+CS 4301,Special Topics in Computer Science,CS
+CS 4141,Digital Systems Laboratory,CS
+CS 3V95,Undergraduate Topics in Computer Science,CS
+CS 3385,"Ethics, Law, Society, and Computing",CS
+CS 3377,C/C++ Programming in a UNIX Environment,CS
+CS 3360,Computer Graphics for Artists and Designers,CS
+CS 3354,Software Engineering,CS
+CS 3345,Data Structures and Introduction to Algorithmic Analysis,CS
+CS 3341,Probability and Statistics in Computer Science and Software Engineering,CS
+CS 3333,Data Structures,CS
+CS 3162,Professional Responsibility in Computer Science and Software Engineering,CS
+CS 3149,Competitive Learning in Computer Science,CS
+CS 2V95,Individual Instruction in Computer Science,CS
+CS 2340,Computer Architecture,CS
+CS 2337,Computer Science II,CS
+CS 2336,Computer Science II,CS
+CS 2335,Computer Science II for Non-majors,CS
+CS 2305,Discrete Mathematics for Computing I,CS
+CS 1337,Computer Science I,CS
+CS 1336,Programming Fundamentals,CS
+CS 4336,Advanced Java,CS
+CS 4337,Organization of Programming Languages,CS
+CS 4341,Digital Logic and Computer Design,CS
+CS 4347,Database Systems,CS
+CS 4V98,Undergraduate Research in Computer Science,CS
+CS 4V95,Undergraduate Topics in Computer Science,CS
+CS 4485,Computer Science Project,CS
+CS 4475,Capstone Project,CS
+CS 4399,Senior Honors in Computer Science,CS
+CS 4398,Digital Forensics,CS
+CS 4397,Embedded Computer Systems,CS
+CS 4396,Networking Laboratory,CS
+CS 4395,Human Language Technologies,CS
+CS 4394,Implementation of Modern Operating Systems,CS
+CS 4393,Computer and Network Security,CS
+CS 4392,Computer Animation,CS
+CS 1335,Computer Science I for Non-majors,CS
+CS 4391,Introduction to Computer Vision,CS
+CS 4389,Data and Applications Security,CS
+CS 4386,Compiler Design,CS
+CS 4384,Automata Theory,CS
+CS 4376,Object-Oriented Design,CS
+CS 4375,Introduction to Machine Learning,CS
+CS 4372,Computational Methods for Data Scientists,CS
+CS 4371,Introduction to Big Data Management and Analytics,CS
+CS 4365,Artificial Intelligence,CS
+CS 4361,Computer Graphics,CS
+CS 4353,Human Computer Interactions II,CS
+CS 4352,Human Computer Interactions I,CS
+CS 4348,Operating Systems Concepts,CS
+CS 4390,Computer Networks,CS
+CS 1334,Programming Fundamentals for Non-Majors,CS
+CS 3305,Discrete Mathematics for Computing II,CS
+CS 1324,Introduction to Programming for Biomedical Engineers,CS
+CS 1200,Introduction to Computer Science and Software Engineering,CS
+CS 1136,Computer Science Laboratory,CS
+CS 1134,Computer Science Laboratory,CS
+CS 1325,Introduction to Programming,CS
+EE 1202,Introduction to Electrical Engineering II,EE
+EE 1100,Introduction to Electrical and Computer Engineering,EE
+EE 4V98,Undergraduate Research in Electrical Engineering,EE
+EE 4V97,Independent Study in Electrical Engineering,EE
+EE 4V95,Undergraduate Topics in Electrical Engineering,EE
+EE 4399,Senior Honors in Electrical Engineering,EE
+EE 4391,Technology of Plasma,EE
+EE 4371,Introduction to MEMS,EE
+EE 4388,Senior Design Project I,EE
+EE 4370,Embedded Systems,EE
+EE 4368,RF Circuit Design Principles,EE
+EE 4367,Telecommunication Networks,EE
+EE 4365,Introduction to Wireless Communication,EE
+EE 4363,Introduction to Power Electronics,EE
+EE 4362,Introduction to Energy Conversion,EE
+EE 4389,Senior Design Project II,EE
+EE 2310,Introduction to Digital Systems,EE
+EE 3201,Electrical and Computer Engineering Fundamentals-I Laboratory,EE
+EE 3161,Social Issues and Ethics in Engineering,EE
+EE 4310,Systems and Controls,EE
+EE 4304,Computer Architecture,EE
+EE 4301,Electromagnetic Engineering I,EE
+EE 4205,Electrical and Computer Engineering Laboratory in Power Electronics and Energy Systems,EE
+EE 4204,Electrical and Computer Engineering Laboratory in Devices,EE
+EE 4203,Electrical and Computer Engineering Laboratory in Signals and Systems,EE
+EE 4202,Electrical and Computer Engineering Laboratory in Circuits,EE
+EE 3120,Digital Circuits Laboratory,EE
+EE 4201,Electrical and Computer Engineering Laboratory in Computing Systems and Computer Engineering,EE
+EE 3350,Communications Systems,EE
+EE 3320,Digital Circuits,EE
+EE 3311,Electronic Circuits,EE
+EE 3310,Electronic Devices,EE
+EE 3302,Signals and Systems,EE
+EE 3301,Electrical Network Analysis,EE
+EE 3202,Electrical and Computer Engineering Fundamentals-II Laboratory,EE
+EE 4168,RF/Microwave Laboratory,EE
+EE 4361,Introduction to Digital Signal Processing,EE
+EE 4342,Introduction to Robotics,EE
+EE 4340,Analog Integrated Circuit Analysis and Design,EE
+EE 4325,Introduction to VLSI Design,EE
+EE 4360,Digital Communications,EE
+EE 4331,Applied Machine Learning,EE
+EE 4330,Integrated Circuit Technology,EE
+CE 2310,Introduction to Digital Systems,CE
+CE 4V98,Undergraduate Research in Computer Engineering,CE
+CE 4V97,Independent Study in Computer Engineering,CE
+CE 4V95,Undergraduate Topics in Computer Engineering,CE
+CE 4399,Senior Honors in Computer Engineering,CE
+CE 4390,Computer Networks,CE
+CE 4389,Senior Design Project II,CE
+CE 4388,Senior Design Project I,CE
+CE 1100,Introduction to Electrical and Computer Engineering,CE
+CE 4370,Embedded Systems,CE
+CE 4348,Operating Systems Concepts,CE
+CE 4337,Organization of Programming Languages,CE
+CE 4304,Computer Architecture,CE
+CE 4205,Electrical and Computer Engineering Laboratory in Power Electronics and Energy Systems,CE
+CE 4204,Electrical and Computer Engineering Laboratory in Devices,CE
+CE 4203,Electrical and Computer Engineering Laboratory in Signals and Systems,CE
+CE 4202,Electrical and Computer Engineering Laboratory in Circuits,CE
+CE 4201,Electrical and Computer Engineering Laboratory in Computing Systems and Computer Engineering,CE
+CE 2336,Computer Science II,CE
+CE 1337,Computer Science I,CE
+CE 3120,Digital Circuits Laboratory,CE
+CE 3161,Social Issues and Ethics in Engineering,CE
+CE 3201,Electrical and Computer Engineering Fundamentals-I Laboratory,CE
+CE 3202,Electrical and Computer Engineering Fundamentals-II Laboratory,CE
+CE 2305,Discrete Mathematics for Computing I,CE
+CE 3301,Electrical Network Analysis,CE
+CE 3310,Electronic Devices,CE
+CE 3311,Electronic Circuits,CE
+CE 3320,Digital Circuits,CE
+CE 3345,Data Structures and Introduction to Algorithmic Analysis,CE
+CE 1202,Introduction to Electrical Engineering II,CE
+CE 3303,Discrete-Time Signals and Systems,CE
+CE 3354,Software Engineering,CE
+SE 4V95,Undergraduate Topics in Software Engineering,SE
+SE 4V98,Undergraduate Research in Software Engineering,SE
+SE 4352,Software Architecture and Design,SE
+SE 4399,Senior Honors in Software Engineering,SE
+SE 4381,Software Project Planning and Management,SE
+SE 4376,Object-Oriented Design,SE
+SE 4367,"Software Testing, Verification, Validation and Quality Assurance",SE
+SE 4351,Requirements Engineering,SE
+SE 4348,Operating Systems Concepts,SE
+SE 4347,Database Systems,SE
+SE 3V95,Undergraduate Topics in Software Engineering,SE
+SE 4485,Software Engineering Project,SE
+SE 3354,Software Engineering,SE
+SE 3345,Data Structures and Introduction to Algorithmic Analysis,SE
+SE 3341,Probability and Statistics in Computer Science and Software Engineering,SE
+SE 3306,Mathematical Foundations of Software Engineering,SE
+SE 3162,Professional Responsibility in Computer Science and Software Engineering,SE
+SE 2V95,Individual Instruction in Software Engineering,SE
+SE 2340,Computer Architecture,SE
+SE 3377,C/C++ Programming in a UNIX Environment,SE
+FIN 4337,Business Valuation,FIN
+FIN 4336,Risk Control and Safety Engineering,FIN
+FIN 4335,Financial Aspects of Retirement and Employee Benefits,FIN
+FIN 4334,Insurance Law and Contracts,FIN
+FIN 4330,Estate Planning,FIN
+FIN 4332,Commercial Property Risk Management and Insurance,FIN
+FIN 4331,Business Liability Risk Management and Insurance,FIN
+FIN 4338,Financial Decision Making Processes for Risk Management,FIN
+FIN 4333,Enterprise Risk Management,FIN
+FIN 4V99,Special Topics in Finance,FIN
+FIN 4399,Senior Honors in Finance,FIN
+FIN 4345,Financial Information and Analysis,FIN
+FIN 4350,Cases in Personal Financial Planning,FIN
+FIN 4380,Domestic Fund Management,FIN
+FIN 4386,Beginning Mathematical Finance,FIN
+FIN 4387,Computational Methods in Finance,FIN
+FIN 4390,Seminar Series in Finance,FIN
+FIN 4395,Capstone Senior Project - Finance,FIN
+FIN 4328,Real Estate Valuation,FIN
+FIN 4V80,Practicum in Finance,FIN
+FIN 4V90,Individual Study in Finance,FIN
+FIN 4340,Options and Futures Markets,FIN
+FIN 4321,Real Estate Law and Contracts,FIN
+FIN 3375,"Life, Accident and Health Insurance",FIN
+FIN 4315,Behavioral Economics and Finance,FIN
+FIN 3100,Professional Development,FIN
+FIN 3200,Introduction to Business and Professional Development,FIN
+FIN 3300,Personal Finance,FIN
+FIN 3305,Real Estate Principles,FIN
+FIN 3320,Business Finance,FIN
+FIN 3330,Personal Financial Planning,FIN
+FIN 3340,Regulation of Business and Financial Markets,FIN
+FIN 3350,Financial Markets and Institutions,FIN
+FIN 3360,Entrepreneurial Finance,FIN
+FIN 3365,Real Estate Finance and Principles,FIN
+FIN 4320,Management of Financial Institutions,FIN
+FIN 3380,International Financial Management,FIN
+FIN 3390,Introduction to Financial Modeling,FIN
+FIN 3395,Financial Modeling and Valuation,FIN
+FIN 4080,Practicum in Finance,FIN
+FIN 4300,Investment Management,FIN
+FIN 4303,Investment Strategies,FIN
+FIN 4305,Fixed Income Securities Analysis,FIN
+FIN 4307,Private Equity,FIN
+FIN 4310,Intermediate Financial Management,FIN
+FIN 4313,Energy Finance,FIN
+FIN 3370,Principles of Risk Management and Insurance,FIN
+MATH 3397,Mathematical Problem Solving,MATH
+MATH 3380,Differential Geometry,MATH
+MATH 3379,Complex Variables,MATH
+MATH 3312,Abstract Algebra II,MATH
+MATH 3323,Elementary Number Theory,MATH
+MATH 3321,Geometry,MATH
+MATH 3315,Discrete Mathematics and Combinatorics,MATH
+MATH 4301,Mathematical Analysis I,MATH
+MATH 3351,Advanced Calculus,MATH
+MATH 4302,Mathematical Analysis II,MATH
+MATH 4381,Structure of Modern Geometry,MATH
+MATH 4334,Numerical Analysis,MATH
+MATH 4341,Topology,MATH
+MATH 4355,Methods of Applied Mathematics,MATH
+MATH 4362,Partial Differential Equations,MATH
+MATH 4390,Senior Research and Advanced Writing,MATH
+MATH 4399,Senior Honors in Mathematics,MATH
+MATH 4475,Capstone Project,MATH
+MATH 4V03,Independent Study in Mathematics,MATH
+MATH 4V91,Undergraduate Topics in Mathematics,MATH
+MATH 3311,Abstract Algebra I,MATH
+MATH 4332,Scientific Math Computing,MATH
+MATH 3310,Theoretical Concepts of Calculus,MATH
+MATH 3303,Introduction to Mathematical Modeling,MATH
+MATH 3305,Foundations of Measurement and Informal Geometry,MATH
+MATH 1306,College Algebra for the Non-Scientist,MATH
+MATH 1314,College Algebra,MATH
+MATH 3307,Mathematical Problem Solving for Teachers,MATH
+MATH 1325,Applied Calculus I,MATH
+MATH 1326,Applied Calculus II,MATH
+MATH 2306,Analytic Geometry,MATH
+MATH 2312,Precalculus,MATH
+MATH 2333,"Matrices, Vectors, and Their Application",MATH
+MATH 2370,Introduction to Programming with MATLAB,MATH
+MATH 2399,Research and Advanced Writing,MATH
+MATH 1316,Trigonometry,MATH
+MATH 2414,Integral Calculus,MATH
+MATH 2413,Differential Calculus,MATH
+MATH 2V90,Topics in Mathematics - Level 2,MATH
+MATH 2451,Multivariable Calculus with Applications,MATH
+MATH 2420,Differential Equations with Applications,MATH
+MATH 3301,Mathematics for Elementary and Middle School Teachers,MATH
+MATH 2418,Linear Algebra,MATH
+MATH 2417,Calculus I,MATH
+MATH 2415,Calculus of Several Variables,MATH
+MATH 2419,Calculus II,MATH
+ACCT 4302,Accounting Research,ACCT
+ACCT 4342,Analysis and Design of Accounting Systems,ACCT
+ACCT 4340,Survey of Accounting Software,ACCT
+ACCT 4337,Business Valuation,ACCT
+ACCT 4336,Financial Statement Analysis,ACCT
+ACCT 4334,Auditing,ACCT
+ACCT 2302,Introductory Management Accounting,ACCT
+ACCT 4301,Database Systems,ACCT
+ACCT 3322,Integrated Accounting Information Systems,ACCT
+ACCT 3341,Cost Management Systems,ACCT
+ACCT 3332,Intermediate Financial Accounting II,ACCT
+ACCT 3331,Intermediate Financial Accounting I,ACCT
+ACCT 3200,Introduction to Business and Professional Development,ACCT
+ACCT 3101,Professional Program in Accounting Lyceum,ACCT
+ACCT 3100,Professional Development,ACCT
+ACCT 4395,Capstone Senior Project - Accounting,ACCT
+ACCT 3350,Fundamentals of Taxation,ACCT
+ACCT 4V00,Special Topics,ACCT
+ACCT 2301,Introductory Financial Accounting,ACCT
+ACCT 4V80,Professional Internship in Accounting,ACCT
+PSY 3360,Historical Perspectives on Psychology: Mind and Machines since 1600,PSY
+PSY 4V98,Directed Research,PSY
+PSY 4V96,Teaching Internship,PSY
+PSY 4V91,Green Fellowship Directed Research,PSY
+PSY 4V90,Special Topics in Psychology,PSY
+PSY 4V75,Honors Seminar,PSY
+PSY 4397,Thesis Research,PSY
+PSY 4395,Co-op Fieldwork,PSY
+PSY 4394,Internship in Psychology,PSY
+PSY 4393,Language in Culture and Society,PSY
+PSY 4391,Individual Study and Writing,PSY
+PSY 4390,Directed Research and Writing,PSY
+PSY 4389,Developmental Cognitive Neuroscience,PSY
+PSY 4386,Adult Development and Aging,PSY
+PSY 4V99,Individual Study,PSY
+PSY 3355,Psychology of Creativity,PSY
+PSY 3351,Mass Communication and Behavior,PSY
+PSY 3350,Psychology of Communication,PSY
+PSY 2301,Introduction to Psychology,PSY
+PSY 2314,Lifespan Development,PSY
+PSY 2317,Statistics for Psychology,PSY
+PSY 2364,Animal Communication,PSY
+PSY 3100,Careers in Psychology,PSY
+PSY 3310,Child Development,PSY
+PSY 4385,Neuropsychology,PSY
+PSY 3322,Psychology of Adjustment,PSY
+PSY 3331,Social Psychology,PSY
+PSY 3332,Social and Personality Development,PSY
+PSY 3336,Infancy,PSY
+PSY 3338,Adolescence,PSY
+PSY 3339,Educational Psychology,PSY
+PSY 3342,Exceptional Children,PSY
+PSY 3324,Psychology of Gender,PSY
+PSY 4378,Advanced Conflict Resolution: Family Mediation,PSY
+PSY 4377,Conflict Resolution,PSY
+PSY 4374,Judgment and Decision Making,PSY
+PSY 4324,The Psychology of Prejudice,PSY
+PSY 4323,Cultural Diversity and Psychology,PSY
+PSY 4320,Psychology of Reasoning,PSY
+PSY 4193,Internship Preparation,PSY
+PSY 4099,Individual Study,PSY
+PSY 4098,Directed Research,PSY
+PSY 4325,Death and Dying,PSY
+PSY 3490,Accelerated Quantitative Methods,PSY
+PSY 3392,Research Design and Analysis,PSY
+PSY 3370,Positive Psychology,PSY
+PSY 3366,Motivation and Achievement,PSY
+PSY 3363,Evolution of Behavior,PSY
+PSY 3362,Cognitive Development,PSY
+PSY 3361,Cognitive Psychology,PSY
+PSY 3393,Experimental Projects in Psychology,PSY
+PSY 4327,Stress Management,PSY
+PSY 4328,Health Psychology,PSY
+PSY 4331,Personality,PSY
+PSY 4373,Psychological Assessment,PSY
+PSY 4372,Forensic Psychology,PSY
+PSY 4370,Industrial and Organizational Psychology,PSY
+PSY 4365,Psychology of Music,PSY
+PSY 4364,Attention and Memory,PSY
+PSY 4362,Perception,PSY
+PSY 4359,Cognitive Neuroscience,PSY
+PSY 4352,Emerging Adulthood Development,PSY
+PSY 4347,Marriage and Family Psychology,PSY
+PSY 4346,Human Sexuality,PSY
+PSY 4345,Violence in the Family,PSY
+PSY 4344,Child Psychopathology,PSY
+PSY 4343,Abnormal Psychology,PSY
+PSY 4333,Human Relations,PSY
+PSY 4332,Psychology in the Workplace,PSY
+PSY 3356,The Creative Process,PSY
+PSY 3333,Approaches to Clinical Psychology,PSY
+ACTS 4301,Long Term Actuarial Mathematics I,ACTS
+ACTS 4302,Investment and Financial Markets I,ACTS
+ACTS 4303,Long Term Actuarial Mathematics II,ACTS
+ACTS 4304,Short Term Actuarial Mathematics I,ACTS
+ACTS 4305,Short Term Actuarial Mathematics II,ACTS
+ACTS 4306,Actuarial Probability as Problem Solving,ACTS
+ACTS 4307,Statistics for Risk Modeling,ACTS
+ACTS 4308,Actuarial Financial Mathematics,ACTS
+ACTS 4309,Investment and Financial Markets II,ACTS
+AHST 1303,Survey of Western Art History: Ancient to Medieval,AHST
+AHST 1304,Survey of Western Art History: Renaissance to Modern,AHST
+AHST 2331,Understanding Art,AHST
+AHST 2V71,Independent Study in Art History,AHST
+AHST 3313,Medieval Art and Architecture,AHST
+AHST 3315,Renaissance Art and Architecture,AHST
+AHST 3316,Baroque Art and Architecture,AHST
+AHST 3317,Pioneers of Modern Art,AHST
+AHST 3318,Contemporary Art,AHST
+AHST 3319,Twentieth Century European Art: Avant-Garde and Aftermath,AHST
+AHST 3320,Art in Historical Context,AHST
+AHST 3321,Chinese Art History,AHST
+AHST 3322,Modern Architecture,AHST
+AHST 3324,History of Photography,AHST
+AHST 4342,Topics in Art History,AHST
+AHST 4V71,Independent Study in Art History,AHST
+AMS 2300,American Popular Culture,AMS
+AMS 2311,Social Change and Photography in America,AMS
+AMS 2341,American Studies for the Twenty-First Century,AMS
+AMS 2390,Topics in American Studies,AMS
+AMS 3302,American Cultures,AMS
+AMS 3316,Interpersonal Communication,AMS
+AMS 3322,American Ethnic Experience: Immigrants After 1945,AMS
+AMS 3327,"American Studies: Histories, Theories, Methodologies",AMS
+AMS 3350,Crisis Communication,AMS
+AMS 3374,Entrepreneurs in America,AMS
+AMS 4300,Oral and Written Communication for the Classroom,AMS
+AMS 4304,Communication in America,AMS
+AMS 4305,World History for Teachers,AMS
+AMS 4324,Motherhood and the Technological Womb,AMS
+AMS 4327,The Culture of Bullying in America,AMS
+AMS 4360,Rebels and Reformers: Women and Alcohol in America,AMS
+AMS 4379,Special Topics in American Studies,AMS
+AMS 4381,Senior Honors in American Studies,AMS
+AMS 4385,Professional Communications in Business,AMS
+AMS 4V80,Independent Study,AMS
+ARAB 1311,Beginning Arabic I,ARAB
+ARAB 1312,Beginning Arabic II,ARAB
+ARAB 2311,Intermediate Arabic I,ARAB
+ARAB 2312,Intermediate Arabic II,ARAB
+ARHM 1100,First Year Seminar,ARHM
+ARHM 2340,Creativity,ARHM
+ARHM 2342,Connections in the Arts and Humanities,ARHM
+ARHM 2343,Science and the Humanities,ARHM
+ARHM 2344,World Cultures,ARHM
+ARHM 2V71,Independent Study in the Arts and Humanities,ARHM
+ARHM 3100,Topics in Values and Science,ARHM
+ARHM 3342,Advanced Interdisciplinary Studies in the Arts and Humanities,ARHM
+ARHM 4V71,Independent Study in the Arts and Humanities,ARHM
+ARHM 4V99,"Art, Humanities, and Culture",ARHM
+ARTS 1301,Exploration of the Arts,ARTS
+ARTS 1316,Drawing Foundations,ARTS
+ARTS 2315,Topics in Visual Art,ARTS
+ARTS 2316,Painting Foundations,ARTS
+ARTS 2350,Photography: Design,ARTS
+ARTS 2380,Visual Design Foundations,ARTS
+ARTS 2381,Introduction to Sculpture,ARTS
+ARTS 2V71,Independent Study in Visual Arts,ARTS
+ARTS 3311,Contemporary Art Practices,ARTS
+ARTS 3313,Intermediate Visual Design,ARTS
+ARTS 3315,"The Art of Tinkering: Creating at the intersection of Art, Science and Technology",ARTS
+ARTS 3340,Topics in Studio Art,ARTS
+ARTS 3341,Chinese Calligraphy,ARTS
+ARTS 3363,"Typography, Technology, Image",ARTS
+ARTS 3364,Silkscreen Printmaking,ARTS
+ARTS 3366,Intermediate Drawing,ARTS
+ARTS 3367,Figure Drawing,ARTS
+ARTS 3368,Mixed Media,ARTS
+ARTS 3369,Intermediate Painting,ARTS
+ARTS 3371,Photography: Black/White,ARTS
+ARTS 3372,Photography: Color Concepts,ARTS
+ARTS 3373,Printmaking,ARTS
+ARTS 3375,Sculpture,ARTS
+ARTS 3376,Time-Based Art,ARTS
+ARTS 3377,Photography: Altered Image,ARTS
+ARTS 3378,Figure Sculpture,ARTS
+ARTS 3379,Photography: New Media,ARTS
+ARTS 3381,Video Painting,ARTS
+ARTS 3382,Color as Subject,ARTS
+ARTS 4305,The Art of Graphic Design,ARTS
+ARTS 4308,Image/Text,ARTS
+ARTS 4310,Studies in Contemporary Exhibitions,ARTS
+ARTS 4366,Advanced Drawing,ARTS
+ARTS 4368,Advanced Visual Arts,ARTS
+ARTS 4369,Advanced Painting,ARTS
+ARTS 4372,Advanced Photography,ARTS
+ARTS 4V71,Independent Study in Visual Arts,ARTS
+ATCM 1100,First Year Seminar,ATCM
+ATCM 2300,Introduction to TechnoCulture,ATCM
+ATCM 2301,Computer Imaging,ATCM
+ATCM 2302,Design I,ATCM
+ATCM 2303,"Project Management for Arts, Technology, and Emerging Communication I",ATCM
+ATCM 2310,Animation and Game Fundamentals,ATCM
+ATCM 2315,Animation Origins and Techniques,ATCM
+ATCM 2320,Critical Media Research Foundations,ATCM
+ATCM 2321,Reading Media Critically,ATCM
+ATCM 2322,Media Histories,ATCM
+ATCM 2330,Digital Art and Social Practice,ATCM
+ATCM 2335,Internet Studio I,ATCM
+ATCM 2340,Visual Communication,ATCM
+ATCM 2343,Emerging Media Art Histories,ATCM
+ATCM 2345,Principles of Digital Audio,ATCM
+ATCM 2350,Time-Based Media,ATCM
+ATCM 2355,Survey of Digital Fabrication,ATCM
+ATCM 2360,Design Histories,ATCM
+ATCM 2375,History of Games,ATCM
+ATCM 2380,Introduction to Emerging Communication,ATCM
+ATCM 3300,Code Plus Culture,ATCM
+ATCM 3301,Writing for ATEC,ATCM
+ATCM 3303,"Project Management for Arts, Technology, and Emerging Communication II",ATCM
+ATCM 3304,Character Design,ATCM
+ATCM 3305,Computer Animation I,ATCM
+ATCM 3306,Modeling and Texturing I,ATCM
+ATCM 3307,Lighting and Composition I,ATCM
+ATCM 3308,Rigging I,ATCM
+ATCM 3309,Visual Story I,ATCM
+ATCM 3310,Procedural Animation,ATCM
+ATCM 3311,Scripting for Animation,ATCM
+ATCM 3312,Surfacing and Shading I,ATCM
+ATCM 3313,2D Animation,ATCM
+ATCM 3315,Animation Studies,ATCM
+ATCM 3320,Critical Media Theories,ATCM
+ATCM 3321,Networked Identities,ATCM
+ATCM 3323,Reading in a Networked Era,ATCM
+ATCM 3325,Global Media Cultures,ATCM
+ATCM 3330,Digital Art and Social Practice,ATCM
+ATCM 3331,Critical Making,ATCM
+ATCM 3335,Internet Studio II,ATCM
+ATCM 3336,Design Research Methods,ATCM
+ATCM 3337,Interaction Design I,ATCM
+ATCM 3338,Motion Graphics I,ATCM
+ATCM 3340,Design II,ATCM
+ATCM 3345,Audio Technologies,ATCM
+ATCM 3346,Audio Productions Lab I,ATCM
+ATCM 3350,Digital Video Production I,ATCM
+ATCM 3355,Computer Modeling for Digital Fabrication,ATCM
+ATCM 3356,Projection Mapping Lab,ATCM
+ATCM 3357,Digital Fabrication Lab I,ATCM
+ATCM 3365,Game Design I,ATCM
+ATCM 3366,Game Studies I,ATCM
+ATCM 3367,Level Design I,ATCM
+ATCM 3368,Scripting for Games I,ATCM
+ATCM 3369,Games and Narrative I,ATCM
+ATCM 3370,Virtual Environments I,ATCM
+ATCM 3371,User Experience Design for Games,ATCM
+ATCM 3372,Sound Design for Games,ATCM
+ATCM 3375,Game Systems Design,ATCM
+ATCM 3380,Media Psychology,ATCM
+ATCM 3381,Media and Communication Research Methods,ATCM
+ATCM 3382,Communicating Research,ATCM
+ATCM 3385,Social Networks,ATCM
+ATCM 3388,Attitudes and Behaviors,ATCM
+ATCM 3395,"Topics in Arts, Technology, and Emerging Communication",ATCM
+ATCM 4304,World Building,ATCM
+ATCM 4305,Computer Animation II,ATCM
+ATCM 4306,Modeling and Texturing II,ATCM
+ATCM 4307,Lighting and Composition II,ATCM
+ATCM 4308,Rigging II,ATCM
+ATCM 4309,Pre-Production Design II,ATCM
+ATCM 4310,Motion Capture Animation,ATCM
+ATCM 4311,Experimental Lab,ATCM
+ATCM 4312,Digital Sculpting,ATCM
+ATCM 4313,Visual Effects,ATCM
+ATCM 4314,Character Effects,ATCM
+ATCM 4315,Computer Animation III,ATCM
+ATCM 4316,Animation Lab I,ATCM
+ATCM 4317,Animation Lab II,ATCM
+ATCM 4318,Motion Capture Lab,ATCM
+ATCM 4319,Topics in Animation,ATCM
+ATCM 4320,Political Economy of Digital Media,ATCM
+ATCM 4322,"Disability, Technology, and Media",ATCM
+ATCM 4323,"Feminism, Technology, and Media",ATCM
+ATCM 4325,"Race, Technology, and Media",ATCM
+ATCM 4326,Mediated Textuality,ATCM
+ATCM 4327,Privacy and Surveillance,ATCM
+ATCM 4330,Culture Jamming,ATCM
+ATCM 4332,Critical Media Studies Lab I,ATCM
+ATCM 4333,Critical Media Studies Lab II,ATCM
+ATCM 4334,Topics in Critical Media Studies,ATCM
+ATCM 4337,Interaction Design II,ATCM
+ATCM 4338,Motion Graphics II,ATCM
+ATCM 4340,Strategic Design,ATCM
+ATCM 4345,Digital Audio Processing,ATCM
+ATCM 4346,Audio Productions Lab II,ATCM
+ATCM 4350,Digital Video Production II,ATCM
+ATCM 4357,Digital Fabrication Lab II,ATCM
+ATCM 4364,Topics in Design and Production,ATCM
+ATCM 4365,Game Design II,ATCM
+ATCM 4366,Game Studies II,ATCM
+ATCM 4367,Level Design II,ATCM
+ATCM 4368,Scripting for Games II,ATCM
+ATCM 4370,Virtual Environments II,ATCM
+ATCM 4373,Animation for Games,ATCM
+ATCM 4374,Interactives Lab,ATCM
+ATCM 4375,Game Design III,ATCM
+ATCM 4376,Game Production Lab I,ATCM
+ATCM 4377,Game Production Lab II,ATCM
+ATCM 4379,Topics in Games,ATCM
+ATCM 4380,"Communication, Media, and Information Technology",ATCM
+ATCM 4384,"Ethics in New Media, Technology, and Communication",ATCM
+ATCM 4385,Children and Media,ATCM
+ATCM 4386,Journalism in the Networked Age,ATCM
+ATCM 4388,Political Communication,ATCM
+ATCM 4395,"Advanced Topics in Arts, Technology, and Emerging Media",ATCM
+ATCM 4397,Senior Seminar,ATCM
+ATCM 4398,Capstone Project,ATCM
+ATCM 4399,"Senior Honors in Arts, Technology, and Emerging Communication",ATCM
+ATCM 4V96,"Independent Study in Arts, Technology, and Emerging Communication",ATCM
+BA 1100,Business Basics,BA
+BA 1310,Making Choices in Free Market Systems,BA
+BA 1320,Business in a Global World,BA
+BA 3100,Professional Development,BA
+BA 3200,Introduction to Business and Professional Development,BA
+BA 3300,Advanced Topics in Capitalism: Ideas and Challenges That Shape Our World,BA
+BA 4010,ENACTUS Participation,BA
+BA 4070,Conference Attendance US,BA
+BA 4071,Conference Attendance International,BA
+BA 4072,Conference Presentation US,BA
+BA 4073,Conference Presentation International,BA
+BA 4074,Student Leadership and Mentoring,BA
+BA 4080,Participation in Internal Competition,BA
+BA 4081,Participation in Local Competition,BA
+BA 4082,Participation in Regional Competition,BA
+BA 4083,Participation in National Competition,BA
+BA 4090,Management Internship,BA
+BA 4095,Social Sector Engagement and Community Outreach Practicum,BA
+BA 4101,Careers in Management,BA
+BA 4V00,Special Topics,BA
+BA 4V10,ENACTUS Service,BA
+BA 4V90,Management Internship,BA
+BBSU 1100,First Year Seminar,BBSU
+BBSU 3310,Community-Based Service Learning,BBSU
+BCOM 1300,Introduction to Professionalism and Communication in Business,BCOM
+BCOM 3100,Professional Development,BCOM
+BCOM 3200,Introduction to Business and Professional Development,BCOM
+BCOM 3300,Professionalism and Communication in Business,BCOM
+BCOM 3310,Business Communication,BCOM
+BCOM 4300,Managing Communications in Business,BCOM
+BCOM 4310,Strategic Business Communications,BCOM
+BCOM 4350,Advanced Business Communication,BCOM
+BIOL 1300,Body Systems with Lab,BIOL
+BIOL 1318,Human Genetics,BIOL
+BIOL 1350,Body Systems,BIOL
+BIOL 1V00,Topics in Biological Sciences,BIOL
+BIOL 1V01,Topics in Biological Sciences with Lab,BIOL
+BIOL 1V95,Individual Instruction in Biology,BIOL
+BIOL 2111,Introduction to Modern Biology Workshop I,BIOL
+BIOL 2112,Introduction to Modern Biology Workshop II,BIOL
+BIOL 2281,Introductory Biology Laboratory,BIOL
+BIOL 2311,Introduction to Modern Biology I,BIOL
+BIOL 2312,Introduction to Modern Biology II,BIOL
+BIOL 2350,Biological Basis of Health and Disease,BIOL
+BIOL 2V00,Topics in Biological Sciences,BIOL
+BIOL 2V01,Topics in Biological Sciences with Lab,BIOL
+BIOL 2V95,Individual Instruction in Biology,BIOL
+BIOL 3101,Classical and Molecular Genetics Workshop,BIOL
+BIOL 3102,Eukaryotic Molecular and Cell Biology Workshop,BIOL
+BIOL 3161,Biochemistry Workshop I,BIOL
+BIOL 3162,Biochemistry Workshop II,BIOL
+BIOL 3301,Classical and Molecular Genetics,BIOL
+BIOL 3302,Eukaryotic Molecular and Cell Biology,BIOL
+BIOL 3303,Introduction to Microbiology,BIOL
+BIOL 3305,Evolutionary Analysis,BIOL
+BIOL 3312,Introduction to Programming for Biological Sciences,BIOL
+BIOL 3315,Epigenetics,BIOL
+BIOL 3318,Forensic Biology,BIOL
+BIOL 3320,Applied Genetics,BIOL
+BIOL 3335,Microbial Physiology,BIOL
+BIOL 3336,Protein and Nucleic Acid Structure,BIOL
+BIOL 3351,Medical Cell Biology,BIOL
+BIOL 3355,Clinical Pathophysiology,BIOL
+BIOL 3357,Mammalian Physiology with Lab,BIOL
+BIOL 3361,Biochemistry I,BIOL
+BIOL 3362,Biochemistry II,BIOL
+BIOL 3370,Exercise Physiology,BIOL
+BIOL 3380,Biochemistry Laboratory,BIOL
+BIOL 3385,Medical Histology,BIOL
+BIOL 3388,Honey Bee Biology,BIOL
+BIOL 3455,Human Anatomy and Physiology with Lab I,BIOL
+BIOL 3456,Human Anatomy and Physiology with Lab II,BIOL
+BIOL 3520,General Microbiology with Lab,BIOL
+BIOL 3V00,Topics in Biological Sciences,BIOL
+BIOL 3V01,Topics in Biological Sciences with Lab,BIOL
+BIOL 3V15,Research Practicum for UT-PACT,BIOL
+BIOL 3V40,Topics in Molecular and Cell Biology,BIOL
+BIOL 3V81,Clinical Medicine I,BIOL
+BIOL 3V82,Clinical Medicine II,BIOL
+BIOL 3V83,Clinical Medicine III,BIOL
+BIOL 3V84,Clinical Medicine IV,BIOL
+BIOL 3V90,Undergraduate Readings in Biology,BIOL
+BIOL 3V91,Undergraduate Research in Biology,BIOL
+BIOL 3V93,Undergraduate Research in Biochemistry,BIOL
+BIOL 3V94,Topics in Biology: Individual Instruction,BIOL
+BIOL 3V96,Undergraduate Research in Molecular and Cell Biology,BIOL
+BIOL 4302,TA Apprenticeship,BIOL
+BIOL 4305,Molecular Evolution,BIOL
+BIOL 4310,Cellular Microbiology,BIOL
+BIOL 4315,"Genes, Disease and Therapeutics",BIOL
+BIOL 4317,Cellular and Molecular Medicine of Human Diseases,BIOL
+BIOL 4320,Cell Migration in Health and Disease,BIOL
+BIOL 4325,Nutrition and Metabolism,BIOL
+BIOL 4330,Advanced Research in Molecular and Cell Biology,BIOL
+BIOL 4337,Seminal Papers in Biology,BIOL
+BIOL 4341,Genomics,BIOL
+BIOL 4345,Immunobiology,BIOL
+BIOL 4350,Medical Microbiology,BIOL
+BIOL 4353,Molecular Biology of HIV/AIDS,BIOL
+BIOL 4356,Molecular Neuropathology,BIOL
+BIOL 4357,Molecular Neuropathology II,BIOL
+BIOL 4360,Evolution and Development,BIOL
+BIOL 4365,Advanced Human Physiology,BIOL
+BIOL 4366,Molecular Biology of Cancer,BIOL
+BIOL 4371,General and Molecular Virology,BIOL
+BIOL 4380,Cell and Molecular Biology Laboratory,BIOL
+BIOL 4385,Oral Histology and Embryology,BIOL
+BIOL 4390,Senior Readings in Molecular and Cell Biology,BIOL
+BIOL 4391,Senior Research in Molecular and Cell Biology,BIOL
+BIOL 4399,Senior Honors Research for Thesis in Molecular and Cell Biology,BIOL
+BIOL 4461,Biophysical Chemistry,BIOL
+BIOL 4V00,Special Topics in Biology,BIOL
+BIOL 4V01,Topics in Biological Sciences with Lab,BIOL
+BIOL 4V40,Special Topics in Molecular and Cell Biology,BIOL
+BIOL 4V95,Advanced Topics in Biology,BIOL
+BIOL 4V99,Senior Honors Research in Molecular and Cell Biology,BIOL
+BIS 1100,Interdisciplinary Studies Freshman Seminar,BIS
+BIS 2190,Library Research Skills,BIS
+BIS 2V90,Topics in Interdisciplinary Studies,BIS
+BIS 3320,The Nature of Intellectual Inquiry,BIS
+BIS 3V03,Educational Issues,BIS
+BIS 4303,Senior Honors in Interdisciplinary Studies,BIS
+BIS 4306,Strategies for Diversity in Education,BIS
+BIS 4310,Co-op Education,BIS
+BIS 4V01,Special Topics,BIS
+BIS 4V02,Independent Study,BIS
+BIS 4V04,Internship,BIS
+BLAW 2301,Business and Public Law,BLAW
+BLAW 3301,Employment Law,BLAW
+BLAW 4301,International Law,BLAW
+BLAW 4305,Introduction to Patent Law,BLAW
+BLAW 4310,Current Issues in Business and Law,BLAW
+BMEN 1100,Introduction to Bioengineering I,BMEN
+BMEN 1208,Introduction to Bioengineering II,BMEN
+BMEN 2320,Statics,BMEN
+BMEN 2V99,Topics in Biomedical Engineering,BMEN
+BMEN 3110,Biomedical Transport Processes Laboratory,BMEN
+BMEN 3120,Biomedical Circuits and Instrumentation Laboratory,BMEN
+BMEN 3130,Engineering Physiology Laboratory,BMEN
+BMEN 3150,Biomedical Engineering Laboratory,BMEN
+BMEN 3170,Digital Circuits Laboratory,BMEN
+BMEN 3200,Biomedical Engineering Fundamentals and Design,BMEN
+BMEN 3220,Electrical and Electronic Circuits in Biomedical Engineering Lab,BMEN
+BMEN 3302,Bioengineering Signals and Systems,BMEN
+BMEN 3310,Fluid Mechanics and Transport Processes in Biomedical Engineering,BMEN
+BMEN 3315,Thermodynamics and Physical Chemistry in Biomedical Engineering,BMEN
+BMEN 3318,Introduction to Engineered Biomaterials,BMEN
+BMEN 3320,Electrical and Electronic Circuits in Biomedical Engineering,BMEN
+BMEN 3325,Advanced Computational Tools for Biomedical Engineering,BMEN
+BMEN 3330,Engineering Physiology of the Human Body,BMEN
+BMEN 3331,Cell and Molecular Engineering,BMEN
+BMEN 3332,Quantitative Physiology for Engineers,BMEN
+BMEN 3350,Biomedical Component and System Design,BMEN
+BMEN 3360,Thermodynamics,BMEN
+BMEN 3370,Digital Circuits,BMEN
+BMEN 3380,Medical Imaging Systems and Methods,BMEN
+BMEN 3399,Introductory Biomechanics,BMEN
+BMEN 3402,Signals and Systems for Biomedical Engineering,BMEN
+BMEN 3V99,Topics in Biomedical Engineering,BMEN
+BMEN 4110,Biomedical Feedback Systems Laboratory,BMEN
+BMEN 4301,Introduction to Medical Device Development,BMEN
+BMEN 4310,Feedback Systems in Biomedical Engineering,BMEN
+BMEN 4320,Intermediate Electrical Systems,BMEN
+BMEN 4342,Introduction to Robotics,BMEN
+BMEN 4350,Applied Sensor Technology,BMEN
+BMEN 4355,Finite Element Analysis in Biomedical Engineering,BMEN
+BMEN 4360,Biomaterials and Medical Devices,BMEN
+BMEN 4370,Biomedical Image Processing,BMEN
+BMEN 4375,Biomedical Engineering Data Analysis,BMEN
+BMEN 4388,Senior Design Project I,BMEN
+BMEN 4389,Senior Design Project II,BMEN
+BMEN 4399,Senior Honors in Biomedical Engineering,BMEN
+BMEN 4V95,Undergraduate Topics in Biomedical Engineering,BMEN
+BMEN 4V97,Independent Study in Biomedical Engineering,BMEN
+BMEN 4V98,Engineering Practicum,BMEN
+BPS 4305,Strategic Management,BPS
+BPS 4307,"Corporations, Politics and Society",BPS
+BPS 4395,Capstone Senior Project - Business,BPS
+CGS 2301,Cognitive Science,CGS
+CGS 3325,Historical Perspectives on Psychology: Mind and Machines since 1600,CGS
+CGS 3340,Experimental Projects in Cognitive Science,CGS
+CGS 3342,Cognitive and Neural Modeling Laboratory,CGS
+CGS 3361,Cognitive Psychology,CGS
+CGS 4193,Internship Preparation,CGS
+CGS 4314,Intelligent Systems Analysis,CGS
+CGS 4315,Intelligent Systems Design,CGS
+CGS 4320,Psychology of Reasoning,CGS
+CGS 4352,Human Computer Interactions I,CGS
+CGS 4353,Human Computer Interactions II,CGS
+CGS 4359,Cognitive Neuroscience,CGS
+CGS 4362,Perception,CGS
+CGS 4364,Attention and Memory,CGS
+CGS 4385,Neuropsychology,CGS
+CGS 4386,Adult Development and Aging,CGS
+CGS 4389,Developmental Cognitive Neuroscience,CGS
+CGS 4390,Directed Research and Writing,CGS
+CGS 4391,Writing and Independent Study,CGS
+CGS 4394,Internship in Cognitive Science,CGS
+CGS 4395,Co-op Fieldwork,CGS
+CGS 4397,Thesis Research,CGS
+CGS 4V75,Honors Seminar,CGS
+CGS 4V90,Special Topics in Cognitive Science,CGS
+CGS 4V96,Teaching Internship,CGS
+CGS 4V98,Directed Research,CGS
+CGS 4V99,Individual Study,CGS
+CHEM 1111,General Chemistry Laboratory I,CHEM
+CHEM 1112,General Chemistry Laboratory II,CHEM
+CHEM 1115,Honors Freshman Chemistry Laboratory I,CHEM
+CHEM 1116,Honors Freshman Chemistry Laboratory II,CHEM
+CHEM 1301,General Chemistry for Engineers,CHEM
+CHEM 1311,General Chemistry I,CHEM
+CHEM 1312,General Chemistry II,CHEM
+CHEM 1315,Honors Freshman Chemistry I,CHEM
+CHEM 1316,Honors Freshman Chemistry II,CHEM
+CHEM 2123,Introductory Organic Chemistry Laboratory I,CHEM
+CHEM 2125,Introductory Organic Chemistry Laboratory II,CHEM
+CHEM 2127,Honors Organic Chemistry Laboratory I,CHEM
+CHEM 2128,Honors Organic Chemistry Laboratory II,CHEM
+CHEM 2130,Introductory Organic Chemistry for Medical Science Laboratory,CHEM
+CHEM 2323,Introductory Organic Chemistry I,CHEM
+CHEM 2324,Introductory Organic Chemistry for Engineers,CHEM
+CHEM 2325,Introductory Organic Chemistry II,CHEM
+CHEM 2327,Honors Organic Chemistry I,CHEM
+CHEM 2328,Honors Organic Chemistry II,CHEM
+CHEM 2330,Introductory Organic Chemistry for Medical Science,CHEM
+CHEM 2401,Introductory Quantitative Methods in Chemistry,CHEM
+CHEM 2V01,Topics in Chemistry,CHEM
+CHEM 3321,Physical Chemistry I,CHEM
+CHEM 3322,Physical Chemistry II,CHEM
+CHEM 3341,Inorganic Chemistry I,CHEM
+CHEM 3361,Biochemistry I,CHEM
+CHEM 3362,Biochemistry II,CHEM
+CHEM 3471,Advanced Chemical Synthesis Laboratory,CHEM
+CHEM 3472,Instrumental Analysis,CHEM
+CHEM 3V92,Undergraduate Research in Biochemistry,CHEM
+CHEM 4335,Polymer Chemistry,CHEM
+CHEM 4355,Computational Modeling,CHEM
+CHEM 4381,Green Chemistry and Green Fuels,CHEM
+CHEM 4390,Research and Advanced Writing in Chemistry,CHEM
+CHEM 4399,Research and Advanced Writing in Chemistry for Honors Students,CHEM
+CHEM 4473,Physical Measurements Laboratory,CHEM
+CHEM 4V01,Topics in Chemistry,CHEM
+CHEM 4V91,Research in Chemistry,CHEM
+CHIN 1311,Beginning Chinese I,CHIN
+CHIN 1312,Beginning Chinese II,CHIN
+CHIN 2311,Intermediate Chinese I,CHIN
+CHIN 2312,Intermediate Chinese II,CHIN
+CHIN 2350,Business Chinese,CHIN
+CHIN 3330,Medical Chinese,CHIN
+CHIN 3365,Advanced Chinese I,CHIN
+CHIN 4301,Advanced Chinese Conversation,CHIN
+CHIN 4364,Advanced Chinese Culture,CHIN
+CLDP 2314,Lifespan Development,CLDP
+CLDP 3303,Normal Language Development,CLDP
+CLDP 3305,Language and Literacy Development,CLDP
+CLDP 3310,Child Development,CLDP
+CLDP 3332,Social and Personality Development,CLDP
+CLDP 3336,Infancy,CLDP
+CLDP 3338,Adolescence,CLDP
+CLDP 3339,Educational Psychology,CLDP
+CLDP 3342,Exceptional Children,CLDP
+CLDP 3343,Children in a Changing World,CLDP
+CLDP 3362,Cognitive Development,CLDP
+CLDP 3365,Child Learning,CLDP
+CLDP 3366,Motivation and Achievement,CLDP
+CLDP 3394,Research and Evaluation Methods,CLDP
+CLDP 3494,Research and Evaluation Methods,CLDP
+CLDP 4193,Internship Preparation,CLDP
+CLDP 4308,Language Disorders in Children,CLDP
+CLDP 4344,Child Psychopathology,CLDP
+CLDP 4345,Violence in the Family,CLDP
+CLDP 4347,Marriage and Family Psychology,CLDP
+CLDP 4389,Developmental Cognitive Neuroscience,CLDP
+CLDP 4390,Directed Research and Writing,CLDP
+CLDP 4391,Individual Study and Writing,CLDP
+CLDP 4394,Internship,CLDP
+CLDP 4395,Co-op Fieldwork,CLDP
+CLDP 4397,Thesis Research,CLDP
+CLDP 4V75,Honors Seminar,CLDP
+CLDP 4V90,Special Topics in Child Learning and Development,CLDP
+CLDP 4V96,Teaching Internship,CLDP
+CLDP 4V98,Directed Research,CLDP
+CLDP 4V99,Individual Study,CLDP
+COMM 1311,Survey of Oral and Technology-based Communication,COMM
+COMM 1315,Public Speaking,COMM
+COMM 1320,Interpersonal Communication,COMM
+COMM 2314,Oral Interpretation,COMM
+COMM 2317,Topics in Communication,COMM
+COMM 2V71,Independent Study in Communications,COMM
+COMM 3320,Readers' Theater,COMM
+COMM 3321,Advanced Public Speaking,COMM
+COMM 3340,Small Group Communication,COMM
+COMM 3342,Advanced Topics in Communication,COMM
+COMM 3350,Intercultural Communication,COMM
+COMM 3351,History and Theory of Communication,COMM
+COMM 3352,Media and Culture,COMM
+COMM 4305,Communications Law,COMM
+COMM 4314,Persuasion and Interpersonal Influence,COMM
+COMM 4360,Communication Ethics,COMM
+COMM 4370,Communication and Leadership,COMM
+COMM 4371,Communication and Professionalism,COMM
+COMM 4375,Professional Communication in Medicine,COMM
+COMM 4V71,Advanced Independent Study in Communication,COMM
+CRIM 1301,Introduction to Criminal Justice,CRIM
+CRIM 1307,Introduction to Crime and Criminology,CRIM
+CRIM 2306,Criminal Law,CRIM
+CRIM 2308,Juvenile Law,CRIM
+CRIM 2313,Police and Society,CRIM
+CRIM 2316,Corrections,CRIM
+CRIM 2317,Criminal Prosecution and Court Process,CRIM
+CRIM 3300,Crime and Civil Liberties,CRIM
+CRIM 3301,Theories of Justice,CRIM
+CRIM 3302,Advanced Criminology,CRIM
+CRIM 3303,Advanced Criminal Justice,CRIM
+CRIM 3304,Research Methods in Crime and Justice Studies,CRIM
+CRIM 3307,Immigration and Crime,CRIM
+CRIM 3309,Media and Crime,CRIM
+CRIM 3310,Youth Crime and Justice,CRIM
+CRIM 3311,"American Crime: Truths, Half-Truths, and Lies",CRIM
+CRIM 3312,Drugs and Crime,CRIM
+CRIM 3319,Comparative Justice Systems,CRIM
+CRIM 3320,Homicide and Capital Punishment,CRIM
+CRIM 3323,Violence and Gun Control,CRIM
+CRIM 3324,"Gender, Crime, and Justice",CRIM
+CRIM 3325,Victimology,CRIM
+CRIM 3326,Victimless Crimes,CRIM
+CRIM 3327,Violent Crime,CRIM
+CRIM 4311,Crime and Justice Policy,CRIM
+CRIM 4315,"Race, Ethnicity, and Justice",CRIM
+CRIM 4322,Senior Research Seminar,CRIM
+CRIM 4323,Communities and Crime,CRIM
+CRIM 4324,White Collar Crime,CRIM
+CRIM 4336,Introduction to Terrorism,CRIM
+CRIM 4337,Landmark Supreme Court Cases,CRIM
+CRIM 4396,Selected Topics in Criminology,CRIM
+CRIM 4V97,Independent Study in Criminology,CRIM
+CRIM 4V98,Internship in Criminology,CRIM
+CRIM 4V99,Senior Honors in Criminology,CRIM
+CRWT 2301,Introduction to Creative Writing,CRWT
+CRWT 2V71,Independent Study in Creative Writing,CRWT
+CRWT 3306,Fiction Workshop,CRWT
+CRWT 3308,Nonfiction Workshop,CRWT
+CRWT 3330,Translation Workshop,CRWT
+CRWT 3351,Poetry Workshop,CRWT
+CRWT 3354,Screenwriting,CRWT
+CRWT 4307,Advanced Fiction Workshop,CRWT
+CRWT 4353,Advanced Poetry Workshop,CRWT
+CRWT 4V71,Independent Study in Creative Writing,CRWT
+DANC 1305,Introduction to World Dance Forms,DANC
+DANC 1310,Understanding Dance,DANC
+DANC 2311,Topics in Dance,DANC
+DANC 2321,"Stretch, Conditioning, Alignment",DANC
+DANC 2331,Dance Technique 1,DANC
+DANC 2332,Modern Dance 1,DANC
+DANC 2333,Jazz Dance 1,DANC
+DANC 2334,Ballet 1,DANC
+DANC 2336,Tap Dance 1,DANC
+DANC 2V71,Independent Study in Dance,DANC
+DANC 3332,Dance Technique 2,DANC
+DANC 3333,Modern Dance 2,DANC
+DANC 3334,Jazz Dance 2,DANC
+DANC 3335,Ballet 2,DANC
+DANC 3336,Latin Social Dance,DANC
+DANC 3340,Dance in Historical Context,DANC
+DANC 3342,Advanced Topics in Dance,DANC
+DANC 3345,Dance Performance,DANC
+DANC 3347,Dance Composition,DANC
+DANC 4313,Dance Technique 3,DANC
+DANC 4314,Modern Dance 3,DANC
+DANC 4315,Ballet 3,DANC
+DANC 4316,Jazz Dance 3,DANC
+DANC 4317,Dance Performance 2,DANC
+DANC 4318,Dance Technique 4,DANC
+DANC 4V71,Independent Study in Dance,DANC
+ECON 2001,Principles of Macroeconomics: Recitation,ECON
+ECON 2301,Principles of Macroeconomics,ECON
+ECON 2302,Principles of Microeconomics,ECON
+ECON 3310,Intermediate Microeconomic Theory,ECON
+ECON 3311,Intermediate Macroeconomic Theory,ECON
+ECON 3312,Money and Banking,ECON
+ECON 3315,Sports Economics,ECON
+ECON 3330,Economics of Health,ECON
+ECON 3332,Economic Geography,ECON
+ECON 3336,Economics of Education,ECON
+ECON 3337,Economics of Poverty and Inequality,ECON
+ECON 3369,Political Economy of Terrorism,ECON
+ECON 3381,Economic History,ECON
+ECON 4301,Game Theory,ECON
+ECON 4302,Urban and Regional Economics,ECON
+ECON 4310,Managerial Economics,ECON
+ECON 4320,Public Sector Economics,ECON
+ECON 4330,Law and Economics,ECON
+ECON 4332,Energy and Natural Resources Economics,ECON
+ECON 4333,Environmental Economics,ECON
+ECON 4334,Experimental Economics,ECON
+ECON 4336,Environmental Economic Theory and Policy,ECON
+ECON 4340,Labor Economics and Human Resources,ECON
+ECON 4342,Public Policies Toward Business,ECON
+ECON 4345,Industrial Organization,ECON
+ECON 4346,"Technology, Economy, and Society",ECON
+ECON 4348,Business and Technology,ECON
+ECON 4351,Mathematical Economics,ECON
+ECON 4355,Econometrics,ECON
+ECON 4360,International Trade,ECON
+ECON 4362,Development Economics,ECON
+ECON 4381,History of Economic Ideas,ECON
+ECON 4382,International Finance,ECON
+ECON 4385,Business and Economic Forecasting,ECON
+ECON 4396,Selected Topics in Economics,ECON
+ECON 4V97,Independent Study in Economics,ECON
+ECON 4V98,Internship,ECON
+ECON 4V99,Senior Honors in Economics,ECON
+ECS 1100,Introduction to Engineering and Computer Science,ECS
+ECS 2361,Social Issues and Ethics in Science and Technology,ECS
+ECS 3301,Introduction to Nanoscience and Nanotechnology,ECS
+ECS 3310,Introduction to Materials Science,ECS
+ECS 3390,Professional and Technical Communication,ECS
+ECSC 3177,CS IPP Assignment,ECSC
+ECSC 3179,ENG IPP Assignment,ECSC
+ECSC 4300,Student Apprenticeship and Mentoring,ECSC
+ECSC 4378,Professional Industrial Practice Program,ECSC
+ED 3314,The American Public School,ED
+ED 3315,Children's Literature,ED
+ED 3339,Educational Psychology for Teachers,ED
+ED 3340,Math Concepts for Teachers,ED
+ED 3342,Classroom Management Grades EC - 6,ED
+ED 3345,"Art, Music, and Physical Development Grades EC - 6",ED
+ED 3370,Curriculum and Instruction in Mathematics and Computer Science,ED
+ED 3371,Curriculum and Instruction in the Natural Sciences,ED
+ED 3380,Curriculum and Instruction in English,ED
+ED 3382,Curriculum and Instruction in Social Studies,ED
+ED 4343,Science Methods for Grades EC - 6,ED
+ED 4344,Mathematics Methods for Elementary Teachers,ED
+ED 4345,Social Studies Methods for Grades EC - 6,ED
+ED 4351,ESL for K-12 Teachers,ED
+ED 4352,Reading I: Learning to Read,ED
+ED 4353,Reading in Secondary Content,ED
+ED 4357,Diagnostic Reading,ED
+ED 4358,Chess I: Using Chess in Schools,ED
+ED 4359,Chess II: Institutional and Cultural Contexts of Chess,ED
+ED 4361,Classroom Management Secondary,ED
+ED 4363,Reading II/ELAR Methods,ED
+ED 4372,Educational Technology,ED
+ED 4693,Student Teaching - Elementary,ED
+ED 4694,Student Teaching Secondary,ED
+ED 4V90,Independent Study in Education,ED
+ED 4V95,Special Topics in Education,ED
+ENGR 2300,Linear Algebra for Engineers,ENGR
+ENGR 3300,Advanced Engineering Mathematics,ENGR
+ENGR 3341,Probability Theory and Statistics,ENGR
+ENGY 3300,Introduction to Energy Technology,ENGY
+ENGY 3301,"Managing Carbon Assets: Oil, Gas, and Coal",ENGY
+ENGY 3302,Managing Power and Renewable Energy Assets; Sustainability,ENGY
+ENGY 3330,Energy Economics,ENGY
+ENGY 3340,Energy Law and Contracts,ENGY
+ENGY 4300,Energy Land Management,ENGY
+ENGY 4313,Energy Finance,ENGY
+ENTP 3301,Innovation and Entrepreneurship,ENTP
+ENTP 3320,Start-up Launch I,ENTP
+ENTP 3321,Start-up Launch II,ENTP
+ENTP 3360,Entrepreneurial Finance,ENTP
+ENTP 4090,Innovation and Entrepreneurship Internship,ENTP
+ENTP 4311,Entrepreneurial Strategy and Business Models,ENTP
+ENTP 4320,Small Business Management,ENTP
+ENTP 4330,Entrepreneurial Marketing,ENTP
+ENTP 4331,Digital Prospecting,ENTP
+ENTP 4335,Digital and Internet Marketing,ENTP
+ENTP 4340,Social Sector Entrepreneurship and Community Engagement,ENTP
+ENTP 4350,Corporate Entrepreneurship,ENTP
+ENTP 4360,Innovation and Creativity,ENTP
+ENTP 4395,Capstone Senior Project - Entrepreneurship,ENTP
+ENTP 4V00,Special Topics in Entrepreneurship,ENTP
+ENTP 4V90,Innovation and Entrepreneurship Internship,ENTP
+ENVR 2302,The Global Environment,ENVR
+EPCS 2100,Engineering Project in Community Service,EPCS
+EPCS 2200,Engineering Projects in Community Service,EPCS
+EPCS 3100,Engineering Project in Community Service II,EPCS
+EPCS 3200,Engineering Projects in Community Service II,EPCS
+EPPS 1110,Critical Issues in the Social Sciences,EPPS
+EPPS 2301,Research Design in the Social and Policy Sciences,EPPS
+EPPS 2302,Methods of Quantitative Analysis in the Social and Policy Sciences,EPPS
+EPPS 2305,Spatial Thinking and Data Analytics,EPPS
+EPPS 3301,"Special Topics In Economic, Political and Policy Sciences",EPPS
+EPPS 3310,Community-Based Service Learning,EPPS
+FILM 1303,Transnational Film and Video,FILM
+FILM 2332,Understanding Film,FILM
+FILM 2V71,Independent Study in Film,FILM
+FILM 3321,Film in Historical Context,FILM
+FILM 3325,Film Authorship,FILM
+FILM 3342,Topics in Film,FILM
+FILM 4V71,Independent Study in Film,FILM
+FREN 1311,Beginning French I,FREN
+FREN 1312,Beginning French II,FREN
+FREN 2311,Intermediate French I,FREN
+FREN 2312,Intermediate French II,FREN
+GEOG 2302,The Global Environment,GEOG
+GEOG 2303,People and Place: An Introduction to World Geographic Regions,GEOG
+GEOG 3304,Principles of Geospatial Information Sciences,GEOG
+GEOG 3331,Urban Growth and Structure,GEOG
+GEOG 3357,Spatial Dimensions of Health and Disease,GEOG
+GEOG 3359,Human Migration and Mobility: Global Patterns,GEOG
+GEOG 3370,The Global Economy,GEOG
+GEOG 3372,Population and Development,GEOG
+GEOG 3377,Urban Planning and Policy,GEOG
+GEOG 3382,"Russia: Yesterday, Today, and Tomorrow",GEOG
+GEOG 4309,Urban Development,GEOG
+GEOG 4380,Spatial Concepts and Organization,GEOG
+GEOG 4396,Selected Topics in Geography,GEOG
+GEOG 4V97,Independent Study in Geography,GEOG
+GEOS 1103,Physical Geology Laboratory,GEOS
+GEOS 1104,History of Earth and Life Laboratory,GEOS
+GEOS 1303,Physical Geology,GEOS
+GEOS 1304,History of Earth and Life,GEOS
+GEOS 2302,The Global Environment,GEOS
+GEOS 2305,Spatial Thinking and Data Analytics,GEOS
+GEOS 2306,Essentials of Field Geologic Methods,GEOS
+GEOS 2310,Environmental Geology,GEOS
+GEOS 2321,"Geology, Resources, and Environment of Latin America",GEOS
+GEOS 2324,"Energy, the Environment and Human Health",GEOS
+GEOS 2328,Geologic Time: An Historical Perspective,GEOS
+GEOS 2332,Age of Dinosaurs,GEOS
+GEOS 2333,Introduction to Fossils,GEOS
+GEOS 2409,Rocks and Minerals,GEOS
+GEOS 2V08,Special Topics in Geology or Geophysics I,GEOS
+GEOS 3122,Coal in Our Society,GEOS
+GEOS 3124,"Energy, the Environment and Human Health",GEOS
+GEOS 3300,Field Geology I,GEOS
+GEOS 3304,Principles of Geospatial Information Sciences,GEOS
+GEOS 3421,Stratigraphy and Sedimentology,GEOS
+GEOS 3434,Paleobiology,GEOS
+GEOS 3464,Igneous and Metamorphic Petrology,GEOS
+GEOS 3470,Structural Geology,GEOS
+GEOS 4300,Field Geology II,GEOS
+GEOS 4320,The Physics and Chemistry of the Solid Earth,GEOS
+GEOS 4322,The Earth System,GEOS
+GEOS 4325,Introduction to Remote Sensing,GEOS
+GEOS 4369,Volcanic Successions,GEOS
+GEOS 4390,Communication in the Geosciences,GEOS
+GEOS 4391,Geoscience Animations and Video,GEOS
+GEOS 4399,Senior Honors in Geosciences,GEOS
+GEOS 4430,Hydrogeology and Aqueous Geochemistry,GEOS
+GEOS 4V08,Special Topics in Geology or Geophysics II,GEOS
+GEOS 4V09,Senior Research in Geology,GEOS
+GEOS 4V80,Senior Research in Geophysics,GEOS
+GERM 1311,Beginning German I,GERM
+GERM 1312,Beginning German II,GERM
+GERM 2311,Intermediate German I,GERM
+GERM 2312,Intermediate German II,GERM
+GERM 2350,Business German,GERM
+GISC 2302,Geodesy and Geospatial Analysis,GISC
+GISC 2305,Spatial Thinking and Data Analytics,GISC
+GISC 3304,Principles of Geospatial Information Sciences,GISC
+GISC 4310,Environmental and Health Policy in East Asia,GISC
+GISC 4317,GeoComputation,GISC
+GISC 4325,Introduction to Remote Sensing,GISC
+GISC 4326,Cartography and GeoVisualization,GISC
+GISC 4363,Internet Mapping and Information Processing,GISC
+GISC 4380,Spatial Concepts and Organization,GISC
+GISC 4381,Spatial Data Science,GISC
+GISC 4382,Applied Geographic Information Systems,GISC
+GISC 4384,Health and Environmental GIS: A Global Perspective,GISC
+GISC 4385,Advanced Applications in GIS,GISC
+GISC 4386,Global Change and Its Challenges,GISC
+GISC 4V96,Special Topics in Geospatial Information Science,GISC
+GISC 4V97,Independent Study in Geospatial Information Science,GISC
+GISC 4V98,Internship,GISC
+GOVT 2107,Federal and Texas Constitutions,GOVT
+GOVT 2305,American National Government,GOVT
+GOVT 2306,State and Local Government,GOVT
+GST 2300,Introduction to Gender Studies,GST
+GST 2311,Social Change and Photography in America,GST
+GST 2V90,Topics in Gender Studies,GST
+GST 3301,Psychology of Gender,GST
+GST 3302,Gender in Western Thought,GST
+GST 3303,"Gender, Society and Politics",GST
+GST 4325,Motherhood and the Technological Womb,GST
+GST 4360,Rebels and Reformers: Women and Alcohol in America,GST
+GST 4379,Special Topics in Gender Studies,GST
+GST 4380,"Women, Work and Family",GST
+GST 4381,Senior Honors Research,GST
+GST 4382,Senior Honors in Gender Studies,GST
+GST 4V80,Independent Study,GST
+HIST 1301,U.S. History Survey to Civil War,HIST
+HIST 1302,U.S. History Survey from Civil War,HIST
+HIST 2301,History of Texas,HIST
+HIST 2330,Themes and Ideas in American History,HIST
+HIST 2340,Middle East Civilizations,HIST
+HIST 2341,East Asian Civilizations,HIST
+HIST 2350,Latin American Civilizations,HIST
+HIST 2370,The Holocaust,HIST
+HIST 2381,African-American History,HIST
+HIST 2384,U.S. Women from Settlement to Present,HIST
+HIST 2V71,Independent Study in Historical Studies,HIST
+HIST 3301,Historical Inquiry,HIST
+HIST 3302,Gender in Western Thought,HIST
+HIST 3305,War and Genocide in the 20th Century,HIST
+HIST 3306,History of Racism,HIST
+HIST 3312,Early China,HIST
+HIST 3313,Medieval China,HIST
+HIST 3314,Tang Dynasty China,HIST
+HIST 3319,Early Modern Europe,HIST
+HIST 3320,Modern Europe,HIST
+HIST 3324,Women in Modern European Society,HIST
+HIST 3327,Perspectives on Science,HIST
+HIST 3328,History and Philosophy of Science and Medicine,HIST
+HIST 3337,Technology and Western Civilization,HIST
+HIST 3340,US South through the Civil War,HIST
+HIST 3341,US South since the Civil War,HIST
+HIST 3344,History of Science in Europe,HIST
+HIST 3346,Medieval Islamic World,HIST
+HIST 3364,History of American Religion,HIST
+HIST 3365,The American West,HIST
+HIST 3366,Themes in the Social History of the United States,HIST
+HIST 3368,North American Environmental History,HIST
+HIST 3369,United States Foreign Relations,HIST
+HIST 3374,American Technological Development,HIST
+HIST 3376,"American Intellectual History, Colonial to the Civil War",HIST
+HIST 3377,"American Intellectual History, Civil War to the Present",HIST
+HIST 3379,United States Relations with Latin America,HIST
+HIST 3380,The Nuclear Age in America,HIST
+HIST 3382,The United States Since 1945,HIST
+HIST 3386,World History to 1500,HIST
+HIST 3387,World History from 1500,HIST
+HIST 3389,History of Science in the U.S.,HIST
+HIST 3390,Twentieth Century African-American History,HIST
+HIST 3391,Modern Mexico,HIST
+HIST 3396,Native Americans in the Twentieth Century,HIST
+HIST 3397,Study Abroad in Latin America,HIST
+HIST 3398,Colonial Latin American History,HIST
+HIST 3399,Modern Latin American History,HIST
+HIST 4344,Topics in European History,HIST
+HIST 4347,Topics in Early Modern European History,HIST
+HIST 4349,Jewish History,HIST
+HIST 4357,Topics in African and African-American History,HIST
+HIST 4358,Topics in Asian History,HIST
+HIST 4359,Topics in Latin American History,HIST
+HIST 4360,Topics in American Women's History,HIST
+HIST 4369,Topics in Borderlands History,HIST
+HIST 4376,Topics in History,HIST
+HIST 4377,Topics in Early American History,HIST
+HIST 4378,Topics in American History,HIST
+HIST 4379,Topics in Women's and Gender History,HIST
+HIST 4380,Topics in Intellectual History,HIST
+HIST 4381,Topics in Comparative History,HIST
+HIST 4382,Topics in Middle Eastern History,HIST
+HIST 4383,Topics in U.S. Southern History,HIST
+HIST 4384,Topics in the History of Religion,HIST
+HIST 4385,Topics in the History of Science,HIST
+HIST 4386,Topics in the History of Race or Ethnicity,HIST
+HIST 4387,Topics in Urban History,HIST
+HIST 4388,Topics in Holocaust History,HIST
+HIST 4390,History Capstone Project,HIST
+HIST 4V71,Independent Study in Historical Studies,HIST
+HIST 4V99,Senior Honors in Historical Studies,HIST
+HLTH 1100,Career Explorations for the Health Professions,HLTH
+HLTH 1301,Introduction to Kinesiology,HLTH
+HLTH 1322,Human Nutrition,HLTH
+HLTH 3101,Medical Terminology,HLTH
+HLTH 3300,Pre-Health Professional Development,HLTH
+HLTH 3301,Issues in Geriatric Healthcare,HLTH
+HLTH 3305,The U.S. Healthcare System,HLTH
+HLTH 3306,Gender in Healthcare,HLTH
+HLTH 3310,Health Care Issues: Global Perspectives,HLTH
+HLTH 3315,Issues in Patient Education,HLTH
+HLTH 4108,Verbal Reasoning and Writing for Pre-Health,HLTH
+HLTH 4304,Health Professions Internship,HLTH
+HLTH 4305,Public Health,HLTH
+HLTH 4306,Health and Sport,HLTH
+HLTH 4307,Climate Change in Healthcare,HLTH
+HLTH 4380,Special Topics in Healthcare,HLTH
+HLTH 4V01,Health Professions Independent Study,HLTH
+HMGT 3080,Healthcare Management Honors Program Seminar,HMGT
+HMGT 3100,Professional Development,HMGT
+HMGT 3200,Introduction to Business and Professional Development,HMGT
+HMGT 3301,Introduction to Healthcare Management,HMGT
+HMGT 3310,Healthcare Regulatory Environment,HMGT
+HMGT 3311,Healthcare Accounting,HMGT
+HMGT 3320,Complex and Dynamic Healthcare Environment,HMGT
+HMGT 4090,Healthcare Management Internship,HMGT
+HMGT 4321,Introduction to Healthcare Information Systems,HMGT
+HMGT 4331,Marketing in Healthcare Organizations,HMGT
+HMGT 4351,"Management, Design and Optimization of Healthcare Processes",HMGT
+HMGT 4392,International Healthcare Management and Leadership,HMGT
+HMGT 4395,Capstone Senior Project - Healthcare Management,HMGT
+HMGT 4V90,Healthcare Management Internship,HMGT
+HONS 3101,"Medicine, Politics, and Philosophy",HONS
+HONS 3104,Foreign Film & Political Culture,HONS
+HONS 3106,Positive Psychology,HONS
+HONS 3108,Internet and Public Policy,HONS
+HONS 3110,The Addicted Brain,HONS
+HONS 3111,Science Fiction,HONS
+HONS 3112,Contemporary Topics in Business,HONS
+HONS 3113,Lives of the Genus Genius,HONS
+HONS 3114,Scientific Research Concepts,HONS
+HONS 3115,Exploring Research at UT Dallas,HONS
+HONS 3199,Collegium V Honors Readings,HONS
+HONS 4V96,Collegium V Honors Capstone,HONS
+HONS 4V97,Independent Study in Honors,HONS
+HUMA 1301,Exploration of the Humanities,HUMA
+HUMA 3342,Topics in the Humanities,HUMA
+HUMA 3350,Introduction to Islam,HUMA
+HUMA 3351,Introduction to Islamic Culture,HUMA
+HUMA 4V71,Independent Study in the Humanities,HUMA
+IMS 3091,Regional Management Area Studies: Latin America,IMS
+IMS 3092,Regional Management Area Studies: Western Europe,IMS
+IMS 3093,Regional Management Area Studies: Asia,IMS
+IMS 3094,Regional Management Area Studies: Africa,IMS
+IMS 3095,Regional Management Area Studies: North America,IMS
+IMS 3096,Regional Management Area Studies: Eastern Europe,IMS
+IMS 3100,Professional Development,IMS
+IMS 3310,International Business,IMS
+IMS 3V91,Regional Management Area Studies: Latin America,IMS
+IMS 3V92,Regional Management Area Studies: Western Europe,IMS
+IMS 3V93,Regional Management Area Studies: Asia,IMS
+IMS 3V94,Regional Management Area Studies: Africa,IMS
+IMS 3V95,Regional Management Area Studies: North America,IMS
+IMS 3V96,Regional Management Area Studies: Eastern Europe,IMS
+IMS 4090,Management Internship,IMS
+IMS 4091,International Social Sector Engagement and Community Outreach Practicum,IMS
+IMS 4095,International Social Sector Engagement and Community Outreach Practicum,IMS
+IMS 4310,Export Market Development,IMS
+IMS 4320,International Marketing,IMS
+IMS 4325,International Advertising and Promotion,IMS
+IMS 4330,Global Human Resource Management,IMS
+IMS 4332,International Negotiation,IMS
+IMS 4334,International Leadership,IMS
+IMS 4335,Social Sector Entrepreneurship and Community Engagement,IMS
+IMS 4373,Global Strategy,IMS
+IMS 4395,Capstone Senior Project - Global Business,IMS
+IMS 4V81,Individual Study in International Management,IMS
+IMS 4V90,Management Internship,IMS
+IMS 4V94,Seminar Series in International Management,IMS
+IPEC 3349,World Resources and Development,IPEC
+IPEC 4301,Political Economy of Industrialized Countries,IPEC
+IPEC 4302,Political Economy of Developing Countries,IPEC
+IPEC 4303,Political Economy of South and Southeast Asia,IPEC
+IPEC 4304,Political Economy of Latin America,IPEC
+IPEC 4305,"Topics in Science, Technology and Institutions",IPEC
+IPEC 4306,Economic Development: Re-Engineering Places and Performances,IPEC
+IPEC 4307,Regional Topics in International Political Economy,IPEC
+IPEC 4308,Political Economy of Africa,IPEC
+IPEC 4309,Urban Development,IPEC
+IPEC 4310,Environmental and Health Policy in East Asia,IPEC
+IPEC 4311,Regional Topics in International Political Economy,IPEC
+IPEC 4312,The Intangible Economy: Exploring 21st-Century New Growth Frontiers,IPEC
+IPEC 4375,Benefit-Cost Analysis,IPEC
+IPEC 4376,Foreign Policy and Public Opinion,IPEC
+IPEC 4377,Politics of International Finance,IPEC
+IPEC 4384,Health and Environmental Policy: A Global Perspective,IPEC
+IPEC 4396,Topics in International Political Economy,IPEC
+IPEC 4V91,Undergraduate Research in International Political Economy,IPEC
+IPEC 4V97,Independent Study,IPEC
+IPEC 4V98,Internship,IPEC
+IPEC 4V99,Senior Honors in International Political Economy,IPEC
+ISAE 2121,Careers for ATEC Majors,ISAE
+ISAE 4V50,Internship,ISAE
+ISAH 2130,Careers for Arts and Humanities Majors,ISAH
+ISAH 2188,Enrichment in the Arts and Humanities,ISAH
+ISAH 4V50,Internship,ISAH
+ISAH 4V88,Special Interdisciplinary Topics in the Arts and Humanities,ISAH
+ISEC 4102,Computer Art Laboratory,ISEC
+ISEC 4201,The Computer and the Artist,ISEC
+ISEC 4395,Computing in Society,ISEC
+ISEC 4V87,Special Interdisciplinary Topics in Engineering or Computer Science,ISEC
+ISIS 3309,Dental Anthropology,ISIS
+ISIS 3310,Childhood Sexual Abuse: A Multidisciplinary Investigation,ISIS
+ISIS 3312,Women in Management,ISIS
+ISIS 3334,Environment in America,ISIS
+ISIS 3335,United States and East Asia,ISIS
+ISIS 3V70,Teaching Internship,ISIS
+ISIS 4303,"Business, Law and Culture",ISIS
+ISIS 4304,Trials in American Culture,ISIS
+ISIS 4309,Diversity and Globalization,ISIS
+ISIS 4310,Health Strategy for Multicultural Populations,ISIS
+ISIS 4350,International Development: Cultural Impacts,ISIS
+ISIS 4V89,Special Topics in Interdisciplinary Studies,ISIS
+ISNS 2359,Earthquakes and Volcanoes,ISNS
+ISNS 2366,Global Climate Change,ISNS
+ISNS 2367,The Oceans,ISNS
+ISNS 2368,Weather and Climate,ISNS
+ISNS 3371,"The Phenomena of Nature: Forces, Gases, Motion, Heat, Light and Electricity",ISNS
+ISNS 3373,Our Nearest Neighbors in the Sky,ISNS
+ITSS 3100,Professional Development,ITSS
+ITSS 3200,Introduction to Business and Professional Development,ITSS
+ITSS 3300,Information Technology for Business,ITSS
+ITSS 3311,Introduction to Programming,ITSS
+ITSS 3312,Object-Oriented Programming,ITSS
+ITSS 3390,Web Design and Development for Business Applications,ITSS
+ITSS 4090,Information Technology and Systems Internship,ITSS
+ITSS 4300,Database Fundamentals,ITSS
+ITSS 4301,Database Systems,ITSS
+ITSS 4312,Mobile Web Application Development,ITSS
+ITSS 4320,Introduction to Healthcare Information Systems,ITSS
+ITSS 4330,Systems Analysis and Design,ITSS
+ITSS 4340,Enterprise Resource Planning,ITSS
+ITSS 4342,Analysis and Design of Accounting Systems,ITSS
+ITSS 4343,Integrated SCM Information Systems,ITSS
+ITSS 4351,Foundations of Business Intelligence,ITSS
+ITSS 4352,Introduction to Web Analytics,ITSS
+ITSS 4353,Business Analytics,ITSS
+ITSS 4354,Advanced Big Data Analytics,ITSS
+ITSS 4355,Data Visualization,ITSS
+ITSS 4360,Network and Information Security,ITSS
+ITSS 4361,Information Technology Cybersecurity,ITSS
+ITSS 4362,Cybersecurity Governance,ITSS
+ITSS 4370,Information Technology Infrastructure,ITSS
+ITSS 4380,Advanced Database Management,ITSS
+ITSS 4381,Object Oriented Programming with Python,ITSS
+ITSS 4395,Capstone Senior Project - Information Systems,ITSS
+ITSS 4V81,Individual Study in ITSS,ITSS
+ITSS 4V90,ITSS Internship,ITSS
+ITSS 4V95,Seminar Series in Information Systems,ITSS
+JAPN 1311,Beginning Japanese I,JAPN
+JAPN 1312,Beginning Japanese II,JAPN
+JAPN 2311,Intermediate Japanese I,JAPN
+JAPN 2312,Intermediate Japanese II,JAPN
+JAPN 2350,Business Japanese,JAPN
+JAPN 3311,Advanced Japanese I,JAPN
+JAPN 3312,Advanced Japanese II,JAPN
+JAPN 4301,Advanced Japanese Conversation,JAPN
+JAPN 4364,Advanced Japanese Culture,JAPN
+LANG 1311,Beginning Language Instruction I,LANG
+LANG 1312,Beginning Language Instruction II,LANG
+LANG 2312,Intermediate Language Instruction II,LANG
+LANG 2V42,Topics in Language,LANG
+LANG 2V71,Independent Study in Language,LANG
+LANG 3342,Advanced Language Instruction,LANG
+LANG 3348,Topics in Language,LANG
+LANG 4348,Advanced Topics in Language,LANG
+LANG 4V71,Independent Study in Language,LANG
+LATS 2V71,Independent Study in Latin American Studies,LATS
+LATS 3301,Latin American Literature,LATS
+LATS 3302,Latin American Film,LATS
+LATS 3303,Latin Social Dance,LATS
+LATS 4V71,Independent Study in Latin American Studies,LATS
+LATS 4V99,Senior Honors in Latin American Studies,LATS
+LIT 1301,Introduction to Literature,LIT
+LIT 2320,Survey A: Literature in English,LIT
+LIT 2321,Survey B: Literature in Translation,LIT
+LIT 2329,Introduction to Ethnic American Literature,LIT
+LIT 2331,Introduction to World Literature,LIT
+LIT 2350,Close Reading,LIT
+LIT 2V71,Independent Study in Literature,LIT
+LIT 3300,Western Literary Tradition,LIT
+LIT 3309,Studies in the Short Story,LIT
+LIT 3310,Studies in Epic and Romance,LIT
+LIT 3312,Studies in Prose Narrative,LIT
+LIT 3314,Studies in Poetry,LIT
+LIT 3316,The Literature of Science Fiction,LIT
+LIT 3317,The Literature of Fantasy,LIT
+LIT 3319,Contexts,LIT
+LIT 3320,Shakespeare,LIT
+LIT 3328,Ethics in Literature,LIT
+LIT 3330,Linguistics,LIT
+LIT 3332,English Syntax and Mechanical Structure,LIT
+LIT 3334,Literature of Science,LIT
+LIT 3337,Comparisons,LIT
+LIT 3338,Literary Theory and Aesthetic Philosophy,LIT
+LIT 3339,Writing Literary Studies,LIT
+LIT 4329,Single Author,LIT
+LIT 4348,Topics in Literature,LIT
+LIT 4390,Capstone,LIT
+LIT 4V71,Independent Study in Literature,LIT
+LIT 4V99,Senior Honors in Literature,LIT
+MECH 1100,Introduction to Mechanical Engineering I,MECH
+MECH 1208,Introduction to Mechanical Engineering II,MECH
+MECH 1V95,Topics in Mechanical Engineering,MECH
+MECH 2120,Mechanics of Materials Laboratory,MECH
+MECH 2310,Statics,MECH
+MECH 2320,Mechanics of Materials,MECH
+MECH 2330,Dynamics,MECH
+MECH 2340,Circuits and Applied Electronics,MECH
+MECH 2V95,Topics in Mechanical Engineering,MECH
+MECH 3105,Computer Aided Design Laboratory,MECH
+MECH 3115,Fluid Mechanics Laboratory,MECH
+MECH 3120,Heat Transfer Laboratory,MECH
+MECH 3150,Kinematics and Dynamics Laboratory,MECH
+MECH 3305,Computer Aided Design,MECH
+MECH 3310,Thermodynamics,MECH
+MECH 3315,Fluid Mechanics,MECH
+MECH 3320,Heat Transfer,MECH
+MECH 3340,System Dynamics Modeling and Analysis,MECH
+MECH 3350,Kinematics and Dynamics of Mechanical Systems,MECH
+MECH 3351,Design of Mechanical Systems,MECH
+MECH 3360,Introduction to Materials Science,MECH
+MECH 3370,Applied Thermodynamics,MECH
+MECH 3380,Introduction to Computational Design and Analysis,MECH
+MECH 3381,Introduction to Manufacturing Processes,MECH
+MECH 3V95,Topics in Mechanical Engineering,MECH
+MECH 4110,Systems and Controls Laboratory,MECH
+MECH 4301,Intermediate Mechanics of Materials,MECH
+MECH 4310,Systems and Controls,MECH
+MECH 4320,Applications of Computational Tools in Thermal Fluid Science,MECH
+MECH 4330,Intermediate Fluid Mechanics,MECH
+MECH 4340,Mechanical Vibrations,MECH
+MECH 4342,Introduction to Robotics,MECH
+MECH 4360,Introduction to Nanostructured Materials,MECH
+MECH 4370,Introduction to MEMS,MECH
+MECH 4380,HVAC Systems,MECH
+MECH 4381,Senior Design Project I,MECH
+MECH 4382,Senior Design Project II,MECH
+MECH 4399,Senior Honors in Mechanical Engineering,MECH
+MECH 4V95,Topics in Mechanical Engineering,MECH
+MECH 4V96,Individual Instruction in Mechanical Engineering,MECH
+MECH 4V98,Undergraduate Research in Mechanical Engineering,MECH
+MECO 3300,Introduction to Energy Technology,MECO
+MECO 3330,Energy Economics,MECO
+MECO 3340,Energy Law and Contracts,MECO
+MECO 3360,Comparative Institutions of Production and Distribution,MECO
+MECO 3361,Comparative Institutions of Production and Distribution II,MECO
+MECO 4300,Energy Land Management,MECO
+MECO 4315,Behavioral Economics and Finance,MECO
+MECO 4340,Thinking Strategically,MECO
+MECO 4342,Financial and Business Negotiation Analysis,MECO
+MECO 4351,Industrial Organization and Corporate Strategy,MECO
+MECO 4352,Applied Econometrics and Time Series Analysis,MECO
+MECO 4370,Data Science Decision Making,MECO
+MECO 4V90,Special Topics in Managerial Economics,MECO
+MKT 3100,Professional Development,MKT
+MKT 3200,Introduction to Business and Professional Development,MKT
+MKT 3300,Principles of Marketing,MKT
+MKT 3320,Product and Brand Management,MKT
+MKT 3330,Introduction to Professional Selling,MKT
+MKT 3331,Principles of Category Management,MKT
+MKT 3340,Marketing Research,MKT
+MKT 3V92,European Marketing Studies,MKT
+MKT 4090,Marketing Internship,MKT
+MKT 4320,International Marketing,MKT
+MKT 4330,Digital and Internet Marketing,MKT
+MKT 4331,Digital Prospecting,MKT
+MKT 4332,Advanced Personal Selling,MKT
+MKT 4333,Retailing and Distribution,MKT
+MKT 4334,Social Media Marketing,MKT
+MKT 4335,Category Buying,MKT
+MKT 4336,E-Retailing,MKT
+MKT 4337,Marketing Analytics,MKT
+MKT 4338,Marketing Content Creation,MKT
+MKT 4339,Marketing Creative Skills and Testing,MKT
+MKT 4340,Consumer Behavior,MKT
+MKT 4341,Predictive Analytics,MKT
+MKT 4350,Advertising,MKT
+MKT 4360,Social Marketing,MKT
+MKT 4370,Marketing Projects,MKT
+MKT 4390,Advanced Marketing Analytics,MKT
+MKT 4395,Capstone Senior Project - Marketing,MKT
+MKT 4V83,Individual Study in Marketing,MKT
+MKT 4V90,Marketing Internship,MKT
+MKT 4V93,Seminar Series in Marketing,MKT
+MSEN 3301,Introduction to Nanoscience and Nanotechnology,MSEN
+MSEN 3302,"Microscopy, Spectroscopy, and Nanotech Instrumentation",MSEN
+MSEN 3304,Materials Science for Sustainable Energy,MSEN
+MSEN 3310,Introduction to Materials Science,MSEN
+MSEN 4391,Technology of Plasma,MSEN
+MSEN 4V95,Undergraduate Research,MSEN
+MUSI 1306,Understanding Music,MUSI
+MUSI 1313,Fundamentals of Music,MUSI
+MUSI 2112,Guitar Ensemble I,MUSI
+MUSI 2113,Pep Band,MUSI
+MUSI 2120,Wind Ensemble I,MUSI
+MUSI 2124,Instrumental Ensemble I,MUSI
+MUSI 2126,Jazz Ensemble I,MUSI
+MUSI 2127,University Choir,MUSI
+MUSI 2128,String Orchestra I,MUSI
+MUSI 2129,Lower-Division Applied Music,MUSI
+MUSI 2311,Topics in Music,MUSI
+MUSI 2315,Guitar I,MUSI
+MUSI 2317,Piano I,MUSI
+MUSI 2319,Digital Music I,MUSI
+MUSI 2321,Music Cultures of the World,MUSI
+MUSI 2322,Music in Western Civilization,MUSI
+MUSI 2325,Vocal Instruction I,MUSI
+MUSI 2328,Music Theory I,MUSI
+MUSI 2329,Music Theory II,MUSI
+MUSI 2330,Music Theory III,MUSI
+MUSI 2V71,Independent Study in Music,MUSI
+MUSI 3112,Advanced Orchestra/Chamber Music Ensemble I,MUSI
+MUSI 3116,Guitar Ensemble II,MUSI
+MUSI 3118,String Orchestra II,MUSI
+MUSI 3120,Wind Ensemble II,MUSI
+MUSI 3122,Brass Ensemble I,MUSI
+MUSI 3130,Percussion Ensemble,MUSI
+MUSI 3131,Drumline,MUSI
+MUSI 3181,Instrumental Ensemble II,MUSI
+MUSI 3185,Chamber Singers I,MUSI
+MUSI 3186,Jazz Ensemble II,MUSI
+MUSI 3229,Upper-Division Applied Music,MUSI
+MUSI 3322,Music in Historical Context,MUSI
+MUSI 3324,Jazz History: Roots to Swing,MUSI
+MUSI 3325,Jazz History: Modern Jazz since BeBop,MUSI
+MUSI 3327,Music in Modern Culture,MUSI
+MUSI 3328,Advanced Theory and Keyboard Skills,MUSI
+MUSI 3330,Music Literature: Romantic to Modern,MUSI
+MUSI 3342,Topics in Music,MUSI
+MUSI 3380,Guitar II,MUSI
+MUSI 3382,Vocal Instruction II,MUSI
+MUSI 3384,Best of Broadway,MUSI
+MUSI 3387,Keyboard Skills for Contemporary Music,MUSI
+MUSI 3388,Piano II,MUSI
+MUSI 3389,Digital Music II,MUSI
+MUSI 4112,Advanced Orchestra/Chamber Music Ensemble II,MUSI
+MUSI 4116,Guitar Ensemble III,MUSI
+MUSI 4118,String Orchestra III,MUSI
+MUSI 4120,Wind Ensemble III,MUSI
+MUSI 4146,Instrumental Ensemble III,MUSI
+MUSI 4147,Vocal Ensemble III,MUSI
+MUSI 4185,Chamber Singers II,MUSI
+MUSI 4186,Jazz Ensemble III,MUSI
+MUSI 4322,Vocal Instruction III,MUSI
+MUSI 4345,Music Performance III,MUSI
+MUSI 4348,Creating Music,MUSI
+MUSI 4390,Senior Project in Music,MUSI
+MUSI 4V12,Chamber Music,MUSI
+MUSI 4V13,Chamber Music II,MUSI
+MUSI 4V61,Individual Instruction in Vocal Performance,MUSI
+MUSI 4V71,Independent Study in Music,MUSI
+NATS 1101,Natural Sciences and Mathematics Freshman Seminar,NATS
+NATS 1141,UTeach STEP 1,NATS
+NATS 1142,UTeach STEP 1,NATS
+NATS 1143,UTeach STEP 2,NATS
+NATS 1311,"The Universe, and Everything Else",NATS
+NATS 2330,The Basis of Evolution,NATS
+NATS 2333,"Energy, Water, and the Environment",NATS
+NATS 2V10,Special Topics in Natural Sciences,NATS
+NATS 3341,Knowing and Learning in Mathematics and Science,NATS
+NATS 3343,Classroom Interactions,NATS
+NATS 4141,UTeach Apprentice Teaching Seminar,NATS
+NATS 4310,Advanced Writing in the Natural Sciences and Mathematics,NATS
+NATS 4341,Project-Based Instruction,NATS
+NATS 4390,Research Methods,NATS
+NATS 4694,"UTeach Apprentice Teaching, 7-12 Science and Mathematics",NATS
+NATS 4696,"UTeach Apprentice Teaching, 4-8 Science and Mathematics",NATS
+NATS 4V41,Independent Study in Science and Math Education,NATS
+NATS 4V90,Special Topics in Natural Sciences,NATS
+NATS 4V91,Green Fellowship Directed Research,NATS
+NSC 3344,Anatomy and Physiology of Speech and Hearing,NSC
+NSC 3361,Introduction to Neuroscience,NSC
+NSC 4193,Internship Preparation,NSC
+NSC 4350,Medical Neuropathology,NSC
+NSC 4351,Medical Neuroscience,NSC
+NSC 4352,Cellular Neuroscience,NSC
+NSC 4353,Neuroscience Laboratory Methods,NSC
+NSC 4354,Integrative Neuroscience,NSC
+NSC 4355,Advanced Neuroscience Laboratory,NSC
+NSC 4356,Neurophysiology,NSC
+NSC 4357,Neurobiology of Learning and Memory,NSC
+NSC 4358,Neuroscience of Pain,NSC
+NSC 4359,Cognitive Neuroscience,NSC
+NSC 4360,Introduction to Entrepreneurship in Neuroscience,NSC
+NSC 4361,Case Studies in Therapeutic Discovery in Neuroscience,NSC
+NSC 4362,Molecular Neuroscience,NSC
+NSC 4363,Neuropharmacology,NSC
+NSC 4364,Journey into Medicine,NSC
+NSC 4365,Laboratory Methods in Human Neuroscience,NSC
+NSC 4366,Neuroanatomy,NSC
+NSC 4367,Developmental Neurobiology,NSC
+NSC 4370,Neuroendocrinology,NSC
+NSC 4371,Neural Plasticity,NSC
+NSC 4372,Neuroimmunology,NSC
+NSC 4373,Sensory Neuroscience,NSC
+NSC 4374,Neuroplasticity in Disorders of the Nervous System,NSC
+NSC 4376,Neurobiology of Stress,NSC
+NSC 4378,Neurotoxicology,NSC
+NSC 4382,Neurobiology of Emotion,NSC
+NSC 4383,Human Neurophysiology Lab,NSC
+NSC 4385,Neuropsychology,NSC
+NSC 4387,Neuropathology,NSC
+NSC 4388,Medical Physiology,NSC
+NSC 4389,Developmental Cognitive Neuroscience,NSC
+NSC 4391,Writing and Independent Study,NSC
+NSC 4394,Internship in Neuroscience,NSC
+NSC 4395,Internship in Neuroscience II,NSC
+NSC 4397,Thesis Research,NSC
+NSC 4V75,Honors Seminar,NSC
+NSC 4V90,Special Topics in Neuroscience,NSC
+NSC 4V91,Green Fellowship Directed Research,NSC
+NSC 4V95,Externship in Neuroscience,NSC
+NSC 4V96,Teaching Internship,NSC
+NSC 4V98,Directed Research,NSC
+NSC 4V99,Independent Study,NSC
+OBHR 3310,Organizational Behavior,OBHR
+OBHR 3311,Principles of Management,OBHR
+OBHR 3320,Groups and Teams,OBHR
+OBHR 3330,Introduction to Human Resource Management,OBHR
+OBHR 4090,Management Internship,OBHR
+OBHR 4300,Management of Non-Profit Organizations,OBHR
+OBHR 4310,Business Ethics,OBHR
+OBHR 4331,Compensation and Benefits Administration,OBHR
+OBHR 4333,Performance Management,OBHR
+OBHR 4334,Talent Acquisition and Management,OBHR
+OBHR 4335,Training and Development,OBHR
+OBHR 4336,Labor and Employee Relations,OBHR
+OBHR 4337,HR Analytics,OBHR
+OBHR 4338,Managing Diversity in Organizations,OBHR
+OBHR 4350,Introduction to Leading and Managing,OBHR
+OBHR 4352,Negotiation and Dispute Resolution,OBHR
+OBHR 4354,Leading Organizational Change,OBHR
+OBHR 4356,Power and Influence in Organizations,OBHR
+OBHR 4358,"Transformational Leadership, Ethics, and Social Responsibility in Practice",OBHR
+OBHR 4361,The Human Resource Professional,OBHR
+OBHR 4370,Data Science Decision Making,OBHR
+OBHR 4395,Capstone Senior Project - Human Resource Management,OBHR
+OBHR 4V84,Individual Study,OBHR
+OBHR 4V90,Management Internship,OBHR
+OBHR 4V94,Seminar Series in Management,OBHR
+OPRE 3100,Professional Development,OPRE
+OPRE 3200,Introduction to Business and Professional Development,OPRE
+OPRE 3310,Operations Management,OPRE
+OPRE 3311,Introduction to Programming,OPRE
+OPRE 3312,Object-Oriented Programming,OPRE
+OPRE 3320,Integrated Supply Chain Management,OPRE
+OPRE 3330,Project Management,OPRE
+OPRE 3333,Quantitative Business Analysis,OPRE
+OPRE 3340,Advanced Business Quantitative Methods,OPRE
+OPRE 3360,Managerial Methods in Decision Making Under Uncertainty,OPRE
+OPRE 4090,Supply Chain Management Internship,OPRE
+OPRE 4310,Lean and Six Sigma Processes,OPRE
+OPRE 4320,Integrated SCM Information Systems,OPRE
+OPRE 4330,Global Logistics and Inventory Management,OPRE
+OPRE 4337,Marketing Analytics,OPRE
+OPRE 4340,"Purchasing, Sourcing, and Contract Management",OPRE
+OPRE 4345,Retail Operations,OPRE
+OPRE 4350,Spreadsheet Modeling and Analytics,OPRE
+OPRE 4353,Business Analytics,OPRE
+OPRE 4395,Capstone Senior Project - Supply Chain Management,OPRE
+OPRE 4V81,Individual Study in Supply Chain Management,OPRE
+OPRE 4V90,Supply Chain Management Internship,OPRE
+OPRE 4V91,Seminar Series in Supply Chain Management,OPRE
+PA 2325,Introduction to Public and Nonprofit Management,PA
+PA 3306,Advanced Research and Writing for the Policy Sciences,PA
+PA 3310,Managing Government Organizations,PA
+PA 3314,Financial Management,PA
+PA 3333,Human Resources Management: Leading a Diverse Workforce,PA
+PA 3377,Urban Planning and Policy,PA
+PA 3378,Public Finance and Economics,PA
+PA 3379,Diversity in the Public Sector,PA
+PA 3380,Organizations: Theory and Behavior,PA
+PA 3381,Field Research Methods,PA
+PA 3382,Sustainable Communities,PA
+PA 4317,Field Research Practicum,PA
+PA 4340,Creating High Performance Organizations,PA
+PA 4345,Negotiation and Conflict Resolution,PA
+PA 4350,"Public Agencies, Management and Ethics",PA
+PA 4351,Managing the Urban Environment,PA
+PA 4352,Emerging Communication Strategies in Public Service Organizations,PA
+PA 4355,Managing Nonprofit Organizations,PA
+PA 4370,"Leadership, Democracy, and Ethics",PA
+PA 4386,Health and Social Policy,PA
+PA 4387,Project Management,PA
+PA 4390,Capstone - Social Entrepreneurship: Leading Change,PA
+PA 4396,Topics in Public Administration,PA
+PA 4V97,Independent Study in Public Administration,PA
+PA 4V98,Internship,PA
+PA 4V99,Senior Honors in Public Administration,PA
+PHIL 1301,Introduction to Philosophy,PHIL
+PHIL 1305,Introduction to Philosophy of Religion,PHIL
+PHIL 1306,Introduction to Ethics,PHIL
+PHIL 2303,Introduction to Logic,PHIL
+PHIL 2304,Understanding Scientific Inquiry,PHIL
+PHIL 2316,History of Philosophy I,PHIL
+PHIL 2317,History of Philosophy II,PHIL
+PHIL 3309,Philosophy of Technology,PHIL
+PHIL 3320,Medical Ethics,PHIL
+PHIL 3321,Philosophical Traditions I,PHIL
+PHIL 3322,Ancient Philosophy,PHIL
+PHIL 3323,Early Modern Philosophy,PHIL
+PHIL 3324,19th and 20th Century Philosophy,PHIL
+PHIL 3328,History and Philosophy of Science and Medicine,PHIL
+PHIL 3338,Literary Theory and Aesthetic Philosophy,PHIL
+PHIL 3357,Confronting Death,PHIL
+PHIL 3373,Philosophy of Mind,PHIL
+PHIL 3375,Contemporary Ethical Issues,PHIL
+PHIL 4308,Theories of Knowledge,PHIL
+PHIL 4321,Philosophy of Medicine,PHIL
+PHIL 4322,Philosophical Traditions II,PHIL
+PHIL 4323,Ethical Theories,PHIL
+PHIL 4324,Social and Political Philosophy,PHIL
+PHIL 4325,Philosophy of Art and Aesthetics,PHIL
+PHIL 4326,Major Figures,PHIL
+PHIL 4327,Great Texts,PHIL
+PHIL 4328,Philosophy Capstone Project,PHIL
+PHIL 4330,Continental Philosophy,PHIL
+PHIL 4331,Philosophy and Poetry,PHIL
+PHIL 4332,Philosophy of Race,PHIL
+PHIL 4333,Feminist Philosophy,PHIL
+PHIL 4344,Philosophy of Science,PHIL
+PHIL 4380,Topics in Philosophy,PHIL
+PHIL 4V71,Independent Study in Philosophy,PHIL
+PHIL 4V99,Senior Honors in Philosophy,PHIL
+PHIN 1100,Sports Conditioning,PHIN
+PHIN 1102,Racquetball,PHIN
+PHIN 1103,Beginning Tennis,PHIN
+PHIN 1104,Intermediate Tennis,PHIN
+PHIN 1106,Aerobics,PHIN
+PHIN 1107,Beginning Basketball,PHIN
+PHIN 1108,Beginning Volleyball,PHIN
+PHIN 1111,Special Topics in Physical Instruction,PHIN
+PHIN 1120,Beginning Yoga,PHIN
+PHIN 1121,Martial Arts and Self-Defense,PHIN
+PHIN 1122,Physical Fitness and Conditioning,PHIN
+PHIN 1129,Beginning Swimming,PHIN
+PHIN 1130,Intermediate Swimming,PHIN
+PHIN 2102,Racquetball II,PHIN
+PHIN 2120,Open Water Scuba,PHIN
+PHIN 2125,Intermediate Yoga,PHIN
+PHIN 2150,Soccer,PHIN
+PHIN 2151,Topics in Athletics,PHIN
+PHIN 2152,Baseball,PHIN
+PHIN 2153,Cheerleading,PHIN
+PHIN 2154,Cross Country,PHIN
+PHYS 1100,The Fun of Physics,PHYS
+PHYS 1301,College Physics I,PHYS
+PHYS 1302,College Physics II,PHYS
+PHYS 2125,Physics Laboratory I,PHYS
+PHYS 2126,Physics Laboratory II,PHYS
+PHYS 2303,Contemporary Physics,PHYS
+PHYS 2325,Mechanics,PHYS
+PHYS 2326,Electromagnetism and Waves,PHYS
+PHYS 2421,Honors Physics I - Mechanics and Heat,PHYS
+PHYS 2422,Honors Physics II - Electromagnetism and Waves,PHYS
+PHYS 3312,Classical Mechanics,PHYS
+PHYS 3330,Numerical Methods in Physics and Computational Techniques,PHYS
+PHYS 3380,Astronomy,PHYS
+PHYS 3411,Theoretical Physics,PHYS
+PHYS 3416,Electricity and Magnetism,PHYS
+PHYS 3427,Electronics with Laboratory,PHYS
+PHYS 4301,Quantum Mechanics I,PHYS
+PHYS 4302,Quantum Mechanics II,PHYS
+PHYS 4311,Thermodynamics and Statistical Mechanics,PHYS
+PHYS 4319,Cyber-Physical Systems,PHYS
+PHYS 4328,Optics,PHYS
+PHYS 4352,Concepts of Modern Physics,PHYS
+PHYS 4371,Solid State Physics,PHYS
+PHYS 4373,Physical Measurements Laboratory,PHYS
+PHYS 4386,Elementary Particle Physics,PHYS
+PHYS 4390,Senior Research,PHYS
+PHYS 4392,Extragalactic Astrophysics,PHYS
+PHYS 4398,Senior Research Project for BA Degree,PHYS
+PHYS 4399,Senior Honors Research in Physics,PHYS
+PHYS 4V07,Senior Research Projects,PHYS
+PHYS 4V10,Research Topics in Physics,PHYS
+PHYS 4V11,Topics in Physics,PHYS
+PPOL 4300,Capstone in Public Policy,PPOL
+PPOL 4301,"Law, Science, and Policy",PPOL
+PPOL 4302,Data and Policy,PPOL
+PPOL 4303,The Internet and Public Policy,PPOL
+PPOL 4310,Law and Terrorism,PPOL
+PPOL 4311,Wicked Social Problems,PPOL
+PPOL 4312,"Death Penalty, the Law and Public Policy",PPOL
+PPOL 4314,Family Violence and Public Policy,PPOL
+PPOL 4396,Topics in Public Policy,PPOL
+PPOL 4398,Internship,PPOL
+PPOL 4V91,Undergraduate Research in Public Policy,PPOL
+PPOL 4V96,Independent Study,PPOL
+PPOL 4V99,Senior Honors in Public Policy,PPOL
+PSCI 3301,Political Theory,PSCI
+PSCI 3303,Civil Liberties,PSCI
+PSCI 3306,Political Economy,PSCI
+PSCI 3310,Managing Government Organizations,PSCI
+PSCI 3322,Constitutional Law,PSCI
+PSCI 3323,American Federalism,PSCI
+PSCI 3325,American Public Policy,PSCI
+PSCI 3326,Politics and Business,PSCI
+PSCI 3327,American Foreign Policy,PSCI
+PSCI 3328,International Relations,PSCI
+PSCI 3333,Political Behavior,PSCI
+PSCI 3350,Comparative Politics,PSCI
+PSCI 3351,Comparative Courts and Law,PSCI
+PSCI 3353,Law and Gender,PSCI
+PSCI 3362,The American Political Institutions,PSCI
+PSCI 3364,Campaigns and Elections,PSCI
+PSCI 4301,"Law, Science, and Policy",PSCI
+PSCI 4302,Data and Policy,PSCI
+PSCI 4303,Ethnic Politics,PSCI
+PSCI 4304,Energy and Environmental Politics and Policy,PSCI
+PSCI 4305,Political Research,PSCI
+PSCI 4306,Protest and Social Movements,PSCI
+PSCI 4307,Predicting Politics,PSCI
+PSCI 4308,Writing a Senior Thesis,PSCI
+PSCI 4310,Law and Terrorism,PSCI
+PSCI 4312,Politics of East Asia,PSCI
+PSCI 4313,Politics of China,PSCI
+PSCI 4314,Political Economy of East Asia,PSCI
+PSCI 4316,Civil War and Conflict Resolution,PSCI
+PSCI 4320,Political Psychology,PSCI
+PSCI 4321,Media and Politics,PSCI
+PSCI 4326,Political Parties and Interest Groups,PSCI
+PSCI 4328,Fake News,PSCI
+PSCI 4329,Global Politics,PSCI
+PSCI 4330,The Bible and Politics,PSCI
+PSCI 4331,Mexican Politics,PSCI
+PSCI 4332,Latin American Politics,PSCI
+PSCI 4334,Approaches to Peace,PSCI
+PSCI 4341,Politics of the Judicial Process,PSCI
+PSCI 4343,Congress and Public Policy,PSCI
+PSCI 4344,Race and Redistricting,PSCI
+PSCI 4347,The War on Drugs,PSCI
+PSCI 4348,Terrorism,PSCI
+PSCI 4354,Contemporary Political Thought,PSCI
+PSCI 4356,International Political Economy,PSCI
+PSCI 4357,Human Rights,PSCI
+PSCI 4359,International Conflict,PSCI
+PSCI 4360,The Political Economy of Multinational Corporations,PSCI
+PSCI 4363,International Law,PSCI
+PSCI 4364,Civil Rights Law and Society,PSCI
+PSCI 4370,Policy Making Process,PSCI
+PSCI 4372,Advocacy and Politics,PSCI
+PSCI 4373,Politics of National Memory,PSCI
+PSCI 4374,Policy Making in Austin,PSCI
+PSCI 4375,Advocacy in the State Legislature,PSCI
+PSCI 4376,Foreign Policy and Public Opinion,PSCI
+PSCI 4377,Women and Politics,PSCI
+PSCI 4378,"Migration, Refugee and Asylum Policy and Law",PSCI
+PSCI 4396,Selected Topics in Government and Politics,PSCI
+PSCI 4398,Texas Legislative Internship,PSCI
+PSCI 4V65,Undergraduate Research in Political Science,PSCI
+PSCI 4V66,Mock Trial,PSCI
+PSCI 4V67,Moot Court,PSCI
+PSCI 4V76,Archer Center Washington Internship,PSCI
+PSCI 4V97,Independent Study in Government and Politics,PSCI
+PSCI 4V98,Internship,PSCI
+PSCI 4V99,Senior Honors in Government and Politics,PSCI
+REAL 3305,Real Estate Principles,REAL
+REAL 3365,Real Estate Finance and Principles,REAL
+REAL 4090,Real Estate Internship,REAL
+REAL 4321,Real Estate Law and Contracts,REAL
+REAL 4328,Real Estate Valuation,REAL
+REAL 4V80,Internship in Real Estate,REAL
+REAL 4V90,Individual Study in Real Estate,REAL
+RHET 1302,Rhetoric,RHET
+RHET 2302,Intermediate Composition and Rhetoric,RHET
+RHET 3302,Visual Rhetoric,RHET
+RHET 3303,Professional and Technical Writing in Career Fields,RHET
+RHET 4302,Advanced Writing and Research,RHET
+RHET 4303,Advanced Editing,RHET
+RMIS 3370,Principles of Risk Management and Insurance,RMIS
+RMIS 3375,"Life, Accident and Health Insurance",RMIS
+RMIS 4331,Business Liability Risk Management and Insurance,RMIS
+RMIS 4332,Commercial Property Risk Management and Insurance,RMIS
+RMIS 4333,Enterprise Risk Management,RMIS
+RMIS 4334,Insurance Law and Contracts,RMIS
+RMIS 4336,Risk Control and Safety Engineering,RMIS
+RMIS 4338,Financial Decision Making Processes for Risk Management,RMIS
+SOC 1301,Introduction to Sociology,SOC
+SOC 2300,Introduction to Gender Studies,SOC
+SOC 2303,"Culture, Media and Society",SOC
+SOC 2305,Individual and Society,SOC
+SOC 2320,Contemporary Social Issues,SOC
+SOC 3303,Classical Social Theory,SOC
+SOC 3305,Applied Data Analysis,SOC
+SOC 3315,Socio-Behavioral Sciences for Medicine,SOC
+SOC 3320,Urban Sociology,SOC
+SOC 3321,Deviance,SOC
+SOC 3325,Race and Ethnicity,SOC
+SOC 3331,Education and Society,SOC
+SOC 3333,Religion in Society,SOC
+SOC 3342,The Life Cycle,SOC
+SOC 3343,Sociology of the Family,SOC
+SOC 3344,Film and Society,SOC
+SOC 3352,"Sex, Gender and Society",SOC
+SOC 3363,Immigrants and Immigration in U.S. Society,SOC
+SOC 3379,Diversity in the Public Sector,SOC
+SOC 3381,Field Research Methods,SOC
+SOC 3382,Sustainable Communities,SOC
+SOC 4302,"Class, Status, and Power",SOC
+SOC 4306,Advanced Sociological Research,SOC
+SOC 4317,Field Research Practicum,SOC
+SOC 4357,"Drugs, Alcohol and Society",SOC
+SOC 4369,Public Health and Society,SOC
+SOC 4371,Mental Health and Illness,SOC
+SOC 4372,Health and Illness,SOC
+SOC 4375,Gender and Work,SOC
+SOC 4384,Social Epidemiology,SOC
+SOC 4385,Global Health and Society,SOC
+SOC 4386,Health and Social Policy,SOC
+SOC 4388,Religions in Global Societies,SOC
+SOC 4396,Selected Topics in Sociology,SOC
+SOC 4V97,Independent Study in Sociology,SOC
+SOC 4V98,Internship,SOC
+SOC 4V99,Senior Honors in Sociology,SOC
+SPAN 1311,Beginning Spanish I,SPAN
+SPAN 1312,Beginning Spanish II,SPAN
+SPAN 2310,Spanish for Heritage Speakers,SPAN
+SPAN 2311,Intermediate Spanish I,SPAN
+SPAN 2312,Intermediate Spanish II,SPAN
+SPAN 3330,Medical Spanish,SPAN
+SPAN 3350,Business Spanish,SPAN
+SPAN 3363,Spanish Composition and Style,SPAN
+SPAN 3365,Advanced Spanish I,SPAN
+SPAN 3366,Advanced Spanish II,SPAN
+SPAN 4301,Advanced Spanish Conversation,SPAN
+SPAN 4302,Spanish Conversation and Community,SPAN
+SPAN 4315,Study Abroad in Spanish,SPAN
+SPAN 4364,Advanced Spanish Culture,SPAN
+SPAN 4366,Spanish and Latin American Literatures,SPAN
+SPAN 4367,The History of the Spanish Language,SPAN
+SPAU 3301,Communication Disorders,SPAU
+SPAU 3303,Normal Language Development,SPAU
+SPAU 3304,Communication Sciences,SPAU
+SPAU 3305,Language and Literacy Development,SPAU
+SPAU 3340,Articulation Disorders,SPAU
+SPAU 3341,Audiology,SPAU
+SPAU 3342,Exceptional Children,SPAU
+SPAU 3343,Phonetics,SPAU
+SPAU 3344,Anatomy and Physiology of Speech and Hearing,SPAU
+SPAU 3345,Neural Basis of Communication,SPAU
+SPAU 3388,Clinical Observation in Speech-Language Pathology,SPAU
+SPAU 3390,Clinical Practicum in Speech-Language Pathology,SPAU
+SPAU 4193,Internship Preparation,SPAU
+SPAU 4308,Language Disorders in Children,SPAU
+SPAU 4342,Assessment Procedures in Speech-Language Pathology,SPAU
+SPAU 4366,Clinical Report Writing,SPAU
+SPAU 4367,Development and Design of Therapeutic Resources,SPAU
+SPAU 4386,Adult Development and Aging,SPAU
+SPAU 4393,Language in Culture and Society,SPAU
+SPAU 4394,Multicultural Aspects of Communication Disorders,SPAU
+SPAU 4395,Issues in the Management of Persons with Hearing Impairment,SPAU
+SPAU 4396,Internship,SPAU
+SPAU 4397,Thesis Research,SPAU
+SPAU 4V75,Honors Seminar,SPAU
+SPAU 4V90,Special Topics in Speech-Language Pathology and Audiology,SPAU
+SPAU 4V96,Teaching Internship,SPAU
+SPAU 4V98,Directed Research,SPAU
+SPAU 4V99,Individual Study,SPAU
+STAT 1342,Statistical Decision Making,STAT
+STAT 2332,Introductory Statistics for Life Sciences,STAT
+STAT 3332,Statistics for Life Sciences,STAT
+STAT 3341,Probability and Statistics in Computer Science and Software Engineering,STAT
+STAT 3355,Data Analysis for Statisticians and Actuaries,STAT
+STAT 3360,Probability and Statistics for Management and Economics,STAT
+STAT 4351,Probability,STAT
+STAT 4352,Mathematical Statistics,STAT
+STAT 4354,Numerical and Statistical Computing,STAT
+STAT 4355,Applied Linear Models,STAT
+STAT 4360,Introduction to Statistical Learning,STAT
+STAT 4382,Stochastic Processes,STAT
+STAT 4475,Capstone Project,STAT
+STAT 4V02,Independent Study in Statistics,STAT
+STAT 4V97,Undergraduate Topics in Statistics,STAT
+THEA 1310,Understanding Theatre,THEA
+THEA 1351,Acting 1,THEA
+THEA 1352,Acting 2,THEA
+THEA 2311,Topics in Theatre,THEA
+THEA 2350,Voice for the Actor,THEA
+THEA 2364,Musical Theatre Workshop,THEA
+THEA 2371,Technical Theatre 1,THEA
+THEA 2372,Improvisation,THEA
+THEA 2373,Languages of the Body,THEA
+THEA 2V71,Independent Study in Theatre,THEA
+THEA 3310,Theatre/Performance Ensemble,THEA
+THEA 3323,Performance in Historical Context,THEA
+THEA 3324,Technical Theatre 2,THEA
+THEA 3325,Directing,THEA
+THEA 3342,Advanced Topics in Theatre,THEA
+THEA 3351,Light Design,THEA
+THEA 3352,Stage Management,THEA
+THEA 3353,Theatrical Makeup,THEA
+THEA 3356,Acting 3,THEA
+THEA 3361,Performing Shakespeare,THEA
+THEA 3372,Advanced Improvisation,THEA
+THEA 3380,Theatre and Literature,THEA
+THEA 3V10,Technical Theatre Practicum,THEA
+THEA 4301,Acting for Film and Video,THEA
+THEA 4310,Theatre Internship,THEA
+THEA 4342,Advanced Topics in Technical Theatre,THEA
+THEA 4V71,Independent Study in Theatre,THEA
+UNIV 1010,Freshman Seminar,UNIV
+UNIV 1100,Freshman Seminar - Undeclared,UNIV
+UNIV 2010,Seminar for Pre-Law Professionals,UNIV
+UNIV 2012,Seminar: Evaluating Competencies for Entry to Health Professions Schools,UNIV
+UNIV 2020,Core Curriculum Assessment,UNIV
+UNIV 2074,Introductory University Engagement and Applied Leadership I,UNIV
+UNIV 2075,Introductory University Engagement and Applied Leadership II,UNIV
+UNIV 2114,Portfolio Seminar for UT PACT Students,UNIV
+UNIV 2V96,Special Topics I,UNIV
+UNIV 3010,Transfer Transitions,UNIV
+UNIV 3015,Travel Preparation,UNIV
+UNIV 3074,Intermediate University Engagement and Applied Leadership I,UNIV
+UNIV 3075,Intermediate University Engagement and Applied Leadership II,UNIV
+UNIV 3112,Research Practicum,UNIV
+UNIV 3310,Community-Engaged Service Learning,UNIV
+UNIV 4073,Advanced University Engagement and Applied Leadership I,UNIV
+UNIV 4074,Student Leadership,UNIV
+UNIV 4075,Advanced University Engagement and Applied Leadership II,UNIV
+UNIV 4076,Advanced Student Leadership,UNIV
+UNIV 4174,Theory and Practice of Group Motivation and Leadership,UNIV
+UNIV 4395,Topics: Online Education in a Massively Multiplayer Virtual World,UNIV
+VPAS 2V71,Independent Study in Visual and Performing Art,VPAS
+VPAS 3300,Elements of Art and Performance,VPAS
+VPAS 3340,Writing in the Arts,VPAS
+VPAS 4310,Entertainment Law,VPAS
+VPAS 4389,Theory and Practice of the Visual and Performing Arts,VPAS
+VPAS 4390,Senior Capstone,VPAS
+VPAS 4V71,Independent Study in Visual and Performing Art,VPAS
+VPAS 4V99,Senior Honors in Visual and Performing Art,VPAS
