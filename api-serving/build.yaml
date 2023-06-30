@@ -5,10 +5,5 @@ steps:
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/fastapi']
-#Deploy to cloudRun
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  entrypoint: gcloud
-  args: ['run', 'deploy', 'compass-utd-api', '--image', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/fastapi', '--region', 'us-central1', '--allow-unauthenticated']
-
 images:
 - us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/fastapi
