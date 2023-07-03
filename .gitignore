@@ -1,6 +1,6 @@
 # Secret Credentials
-train-and-finetune/google_key.json
-
+**/google_key.json
+**/MongoDB.pem
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

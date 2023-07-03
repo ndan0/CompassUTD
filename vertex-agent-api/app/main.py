@@ -4,23 +4,26 @@ import os
 import re
 
 import fitz
+
 import requests
+import nltk
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.middleware.cors import CORSMiddleware
+#from fastapi.middleware.cors import CORSMiddleware
+from textblob import TextBlob, Word
 
 load_dotenv()
 
 app = FastAPI()
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
 
     
@@ -85,7 +88,20 @@ def query_search(query: str):
     }
     data = requests.get(url, params=params).json()
     return data
+
+@app.get("/dictionary/{query}")
+def get_definition(query:str):
+    sentence = TextBlob(query).correct() #Spell check the query
+    #Split the sentence into words
+    words = sentence.words
+    #Get the definition of each word
+    result = {}
+    for word in words:
+        word = Word(word)
+        result[word] = word.define() or None
+    return result
     
+
 @app.get("/access/")
 async def access_url(request: Request):
     """_summary_
