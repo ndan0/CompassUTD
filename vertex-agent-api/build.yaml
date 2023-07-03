@@ -3,9 +3,9 @@
 steps:
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/fastapi', '.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/vertex-agent-api', '.']
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/fastapi']
+  args: ['push', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/vertex-agent-api']
 images:
-- us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/fastapi
+- us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/vertex-agent-api

@@ -2,15 +2,13 @@
 import io
 import os
 import re
+
 import fitz
 import requests
-
-from fastapi import FastAPI, Request, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-
 from bs4 import BeautifulSoup
-
 from dotenv import load_dotenv
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
