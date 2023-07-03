@@ -1,3 +1,5 @@
 beautifulsoup4
 pandas
 requests
+pypdf
+PyMuPDF

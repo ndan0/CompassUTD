@@ -1,3 +1,5 @@
+#!Replace `us-central1-docker.pkg.dev` with your region specific Container Registry domain
+
 steps:
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
