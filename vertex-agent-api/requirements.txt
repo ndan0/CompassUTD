@@ -3,3 +3,4 @@ pandas
 requests
 textblob 
 PyMuPDF
+google-cloud-aiplatform
