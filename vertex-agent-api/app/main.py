@@ -4,28 +4,29 @@ import os
 import re
 
 import fitz
-
-import requests
 import nltk
+import requests
+import vertexai
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Request
-#from fastapi.middleware.cors import CORSMiddleware
 from textblob import TextBlob, Word
+from vertexai.language_models import TextGenerationModel
 
 load_dotenv()
 
 app = FastAPI()
 
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
 
+vertexai.init(project="aerobic-gantry-387923", location="us-central1")
+parameters = {
+    "temperature": 0.2,
+    "max_output_tokens": 512,
+    "top_p": 0.9,
+    "top_k": 40
+}
 
+model = TextGenerationModel.from_pretrained("text-bison@001")
     
 @app.get("/get-possible-courses/{query}")
 def get_course_ids(query: str):
@@ -152,5 +153,29 @@ async def access_url(request: Request):
     text = re.sub(r'\s+', ' ', text)
     #Remove underscores
     text = re.sub(r'_', '', text)
+    
+    
+    if re.search(r"catalog.utdallas.edu", url) and re.search(r"courses", url):
+        #Remove links to this and other courses
+        prompt = """
+        Remove links to this and other courses.
+        Remove unnecessary information such as timestamps
+        :
+        """
+        response = model.predict(prompt + text)
+        if len(response.text) > 10:
+            text = response.text
+        return {"data": text}
+    
+    #Generate summary for text
+    prompt = """
+    Provide a summary for the following text that students have to know about.
+    Include ALL email and phone contact information of staff, faculty, and department if applicable.
+    Applicable information if not found should not be included in the summary.
+    :
+    """
+    response = model.predict(prompt + text)
+    if len(response.text) > 10:
+        text = response.text
     
     return {"data": text}
