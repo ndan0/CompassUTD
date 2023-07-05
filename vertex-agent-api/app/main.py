@@ -4,30 +4,17 @@ import os
 import re
 
 import fitz
-import nltk
 import requests
-import vertexai
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Request
 from textblob import TextBlob, Word
-from vertexai.language_models import TextGenerationModel
 
 load_dotenv()
 
 app = FastAPI()
 
 
-vertexai.init(project="aerobic-gantry-387923", location="us-central1")
-parameters = {
-    "temperature": 0.2,
-    "max_output_tokens": 512,
-    "top_p": 0.9,
-    "top_k": 40
-}
-
-model = TextGenerationModel.from_pretrained("text-bison@001")
-    
 @app.get("/get-possible-courses/{query}")
 def get_course_ids(query: str):
     """_summary_
@@ -136,8 +123,10 @@ async def access_url(request: Request):
 
         if not re.search(r"makepdf", url):
             url += "/makepdf"
-        
-    response = requests.get(url)
+    
+    #
+    
+    response = requests.get(url, verify=False)
 
     if not response:
         raise HTTPException(status_code=400, detail="Error occurred while accessing URL.")
@@ -159,5 +148,7 @@ async def access_url(request: Request):
     text = re.sub(r'\s+', ' ', text)
     #Remove underscores
     text = re.sub(r'_', '', text)
+    #Remove non-alphanumeric characters except space,period,comma.
+    text = re.sub(r'[^a-zA-Z0-9\s.,]', '', text)
     
     return {"data": text}

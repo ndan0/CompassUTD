@@ -1,6 +1,5 @@
 beautifulsoup4
-pandas
 requests
 textblob 
 PyMuPDF
-google-cloud-aiplatform
+
