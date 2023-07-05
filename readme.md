@@ -22,9 +22,6 @@
 
 # API DOcs
 
-1. https://compass-utd-api-z4khdeirua-uc.a.run.app/docs
-
-
 
 
 # Notes Prompts
