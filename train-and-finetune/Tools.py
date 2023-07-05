@@ -47,8 +47,8 @@ class Tools:
         params = {
             "url": url_to_search
         }
-        response = self.request_error_handler(url)
-        return response['data']
+        response = self.request_error_handler(url,params=params)
+        return response
     
     def dictionary_search(self, query: str) -> str:
         url = f"https://{self.tool_url}/dictionary/{query}"
