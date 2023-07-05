@@ -53,7 +53,7 @@ class Tools:
             return json.dumps(response)
         except:
             #Probably an error message
-            return response
+            return "There was an error accessing the site. Please choose a different site."
     
     def dictionary_search(self, query: str) -> str:
         url = f"https://{self.tool_url}/dictionary/{query}"
