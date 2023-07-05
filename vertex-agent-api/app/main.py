@@ -47,7 +47,13 @@ def get_course_ids(query: str):
     }
     data = requests.get(url, params=params).json()
 
-    return {"course_ids": data}
+    for course in data["items"]:
+        #If the course link is not a link to a course, remove it from the list
+        course_link = course["link"]
+        #A valid course_link will have numbers at the tail
+        if not re.search(r'\d+$', course_link):
+            data["items"].remove(course)
+    return data
 
 @app.get("/get-possible-degrees/{query}")
 def degrees_search(query: str):
@@ -153,29 +159,5 @@ async def access_url(request: Request):
     text = re.sub(r'\s+', ' ', text)
     #Remove underscores
     text = re.sub(r'_', '', text)
-    
-    
-    if re.search(r"catalog.utdallas.edu", url) and re.search(r"courses", url):
-        #Remove links to this and other courses
-        prompt = """
-        Remove links to this and other courses.
-        Remove unnecessary information such as timestamps
-        :
-        """
-        response = model.predict(prompt + text)
-        if len(response.text) > 10:
-            text = response.text
-        return {"data": text}
-    
-    #Generate summary for text
-    prompt = """
-    Provide a summary for the following text that students have to know about.
-    Include ALL email and phone contact information of staff, faculty, and department if applicable.
-    Applicable information if not found should not be included in the summary.
-    :
-    """
-    response = model.predict(prompt + text)
-    if len(response.text) > 10:
-        text = response.text
     
     return {"data": text}
