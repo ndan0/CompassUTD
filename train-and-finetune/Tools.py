@@ -1,6 +1,7 @@
 import dotenv
 import requests
 import os
+import json
 
 dotenv.load_dotenv()
 
@@ -30,17 +31,17 @@ class Tools:
         url = f"https://{self.tool_url}/get-possible-courses/{query}"
         response = self.request_error_handler(url)
         #Turn the response into a natural language response
-        return self.result_to_natural_language(response)
+        return json.dumps(response)
 
     def get_degrees_from_query(self,query: str) -> str:
         url = f"https://{self.tool_url}/get-possible-degrees/{query}"
         response = self.request_error_handler(url)
-        return self.result_to_natural_language(response)
+        return json.dumps(response)
     
     def utdallas_search(self, query: str) -> str:
         url = f"https://{self.tool_url}/search/{query}"
         response = self.request_error_handler(url)
-        return self.result_to_natural_language(response)
+        return json.dumps(response)
 
     def access_utdallas_site(self, url_to_search: str) -> str:
         url = f"https://{self.tool_url}/access/"
@@ -48,18 +49,13 @@ class Tools:
             "url": url_to_search
         }
         response = self.request_error_handler(url,params=params)
-        return response
+        try:
+            return json.dumps(response)
+        except:
+            #Probably an error message
+            return response
     
     def dictionary_search(self, query: str) -> str:
         url = f"https://{self.tool_url}/dictionary/{query}"
         response = self.request_error_handler(url)
-        str_result = ""
-        for k,v in response.items():
-            str_result += f"Here is the definition of {k}:"
-            if type(v) == list:
-                for item in v:
-                    str_result += f"{item}, "
-            #remove the last comma
-            str_result = str_result[:-2]
-            str_result += "."
-        return str_result
+        return json.dumps(response)
