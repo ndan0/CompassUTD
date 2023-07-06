@@ -12,7 +12,7 @@ steps:
   args:
   - 'run'
   - 'deploy'
-  - 'compass-utd-api'
+  - 'compass-utd-serving-api'
   - '--image=us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/serving-api:latest'
   - '--allow-unauthenticated'
   - '--platform=managed'
