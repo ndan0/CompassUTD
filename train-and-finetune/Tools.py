@@ -3,6 +3,9 @@ import requests
 import os
 import json
 
+from transformers import GPT2TokenizerFast
+
+
 dotenv.load_dotenv()
 
 class Tools:
@@ -16,7 +19,7 @@ class Tools:
             data = response.json()
             return data
         except requests.exceptions.RequestException as e:
-            return e
+            return "No results found."
     
     def result_to_natural_language(self, data: dict) -> str:
         num = 0
@@ -31,17 +34,17 @@ class Tools:
         url = f"https://{self.tool_url}/get-possible-courses/{query}"
         response = self.request_error_handler(url)
         #Turn the response into a natural language response
-        return json.dumps(response)
+        return response
 
     def get_degrees_from_query(self,query: str) -> str:
         url = f"https://{self.tool_url}/get-possible-degrees/{query}"
         response = self.request_error_handler(url)
-        return json.dumps(response)
+        return response
     
     def utdallas_search(self, query: str) -> str:
         url = f"https://{self.tool_url}/search/{query}"
         response = self.request_error_handler(url)
-        return json.dumps(response)
+        return response
 
     def access_utdallas_site(self, url_to_search: str) -> str:
         url = f"https://{self.tool_url}/access/"
@@ -50,7 +53,7 @@ class Tools:
         }
         response = self.request_error_handler(url,params=params)
         try:
-            return json.dumps(response)
+            return response["data"][:(8,192*2)]
         except:
             #Probably an error message
             return "There was an error accessing the site. Please choose a different site."
