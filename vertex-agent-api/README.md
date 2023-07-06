@@ -1,4 +1,4 @@
-# Langchain tools API
+# Langchain tools
 
 ### Prepare
 This repository contain the agent tools API/microservices that will allow the Langchain agent to 
