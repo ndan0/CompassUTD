@@ -27,9 +27,12 @@ RANDOM_SEARCH_ID = YOUR_SEARCH_ENGINE_ID
 4. Now, you should be able to deploy it.
 - Edit the `image` and the `region` in the `build.yaml` to match location of your image
 
-5. Run the command, if build successful then you successfully deployed it:
-```aidl
-gcloud auth login #You only need to do this once
+5. Authenticate the google cloud CLI to access GCP
+```
+gcloud auth login
+```
 
+6. Deploy it using the command below. If you make some changes, just rerun this command:
+```
 gcloud builds submit --config build.yaml
 ```
