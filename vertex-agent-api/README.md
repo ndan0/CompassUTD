@@ -20,12 +20,11 @@ RANDOM_SEARCH_ID = YOUR_SEARCH_ENGINE_ID
 ```
 
 3. Now you can run the container. You should have the following installed:
-- Google Cloud CLI
-- Docker
-- Python 3.6 or later
+>- Google Cloud CLI
+>- Docker
+>- Python 3.6 or later
 
-4. Now, you should be able to deploy it.
-- Edit the `image` and the `region` in the `build.yaml` to match location of your image
+4. Edit the `image` and the `region` in the `build.yaml` to match location of your image
 
 5. Authenticate the google cloud CLI to access GCP
 ```
