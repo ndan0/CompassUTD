@@ -6,10 +6,10 @@ perform Google Programmable Search Engine on utdallas.edu.
 
 1. Get the API key to perform the search. Then create 3 search engines and save individual `Search Engine ID`:
 
-|                | Course Search                                   | Degree Search              | Random Search                                        |
-|----------------|-------------------------------------------------|----------------------------|------------------------------------------------------|
-| Search sites   | - catalog.utdallas.edu/<br/>\*/\*/courses/***** | - catalog.utdallas.edu/<br/>202*/\*/programs/\*/* | - catalog.utdallas.edu/\*/\*/home/* <br/> - bpb-us-e2.wpmucdn.com/sites.utdallas.edu/* <br/> - \*.utdallas.edu/* |
-| Excluded sites | - catalog.utdallas.edu/<br/>\*/\*/courses/school/*   | *None*     | - dox.utdallas.edu/syl*<br/>- catalog.utdallas.edu/* |
+|                | Course Search <img width=200/>| Degree Search <img width=200/>| Random Search <img width=200/>|
+|----------------|--------------------------|-------------------------------|-------------------------------|
+| Search sites   | - catalog.utdallas.edu/<br/>\*/\*/courses/***** | - catalog.utdallas.edu/<br/>202*/\*/programs/\*/*  | - catalog.utdallas.edu/\*/\*/home/* <br/> - bpb-us-e2.wpmucdn.com/sites.utdallas.edu/* <br/> - \*.utdallas.edu/* |
+| Excluded sites | - catalog.utdallas.edu/<br/>\*/\*/courses/school/*  | *None* | - dox.utdallas.edu/syl*<br/>- catalog.utdallas.edu/* |
 
 2. Then create a `.env` file in the `/app` folder with 4 item
 ```aidl
