@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Request
 from textblob import TextBlob, Word
 
+
 load_dotenv()
 
 app = FastAPI()
@@ -148,7 +149,5 @@ async def access_url(request: Request):
     text = re.sub(r'\s+', ' ', text)
     #Remove underscores
     text = re.sub(r'_', '', text)
-    #Remove non-alphanumeric characters except space,period,comma.
-    text = re.sub(r'[^a-zA-Z0-9\s.,]', '', text)
     
     return {"data": text}
