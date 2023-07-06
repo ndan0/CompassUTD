@@ -11,7 +11,7 @@ perform Google Programmable Search Engine on utdallas.edu.
 | Search sites   | - catalog.utdallas.edu/<br/>\*/\*/courses/***** | - catalog.utdallas.edu/<br/>202*/\*/programs/\*/*  | - catalog.utdallas.edu/\*/\*/home/* <br/> - bpb-us-e2.wpmucdn.com/sites.utdallas.edu/* <br/> - \*.utdallas.edu/* |
 | Excluded sites | - catalog.utdallas.edu/<br/>\*/\*/courses/school/*  | *None* | - dox.utdallas.edu/syl*<br/>- catalog.utdallas.edu/* |
 
-2. Then create a `.env` file in the `/app` folder with 4 item
+2. Then create a `.env` file to store 4 variable environment in the `/app` folder as such:
 ```aidl
 GOOGLE_SEARCH_API = YOUR_API_KEY
 COURSE_SEARCH_ID = YOUR_SEARCH_ENGINE_ID
