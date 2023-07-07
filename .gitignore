@@ -1,4 +1,5 @@
 # Secret Credentials
+**/secrets.json
 **/google_key.json
 **/MongoDB.pem
 
@@ -155,3 +156,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+compassUTD/_secret/secrets.json
+*.json
+compassUTD/_secret/secrets.json
