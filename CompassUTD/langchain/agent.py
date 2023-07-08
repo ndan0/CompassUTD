@@ -1,7 +1,7 @@
 from langchain.agents import ZeroShotAgent, AgentExecutor
 from langchain import LLMChain
 
-from prompt import zero_shot_prompt
+from CompassUTD.langchain.prompt import zero_shot_prompt
 
 
 def error_handler(e):
@@ -30,6 +30,7 @@ class CompassAgent:
             verbose=True,
             memory=memory,
             handle_parsing_errors=False,
+            max_execution_time=10,
         )
 
     def _run(self, input: str) -> str:

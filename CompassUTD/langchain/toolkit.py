@@ -5,8 +5,7 @@ from langchain.agents.agent_toolkits.base import BaseToolkit
 
 from langchain.callbacks.manager import CallbackManagerForToolRun
 
-from compassUTD.tools.google_search import SearchCourse, SearchDegree, SearchDefinition, SearchGeneral
-from compassUTD.tools.rate_my_professors import GetProfessorRMP
+from CompassUTD.tools import search_definition, search_general, search_course, search_degree, get_professor_rmp
 
 
 class CompassToolkit(BaseToolkit):
@@ -30,16 +29,15 @@ class ProfessorSearchResult(BaseTool):
         "Return will be full name, courses taught, overall rating, and difficulty rating"
     )
 
-    def __init__(self):
-        self.find_professor = GetProfessorRMP()
-
     def _run(
-            self, professor_name: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self,
+        professor_name: str,
+        run_manager: Optional[CallbackManagerForToolRun] = None,
     ) -> str:
-        return self.find_professor._run(professor_name)
+        return get_professor_rmp._run(professor_name)
 
     async def _arun(
-            self, name: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, name: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
         raise NotImplementedError("does not support async yet")
 
@@ -53,16 +51,14 @@ class CoursesSearchResults(BaseTool):
         "Return will be multiple results with course title and snippet"
     )
 
-    def __init__(self):
-        self.search_course = SearchCourse()
 
     def _run(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
-        return self.search_course._run(query)
+        return search_course._run(query)
 
     async def _arun(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
         raise NotImplementedError("does not support async yet")
 
@@ -76,16 +72,14 @@ class DegreeSearchResult(BaseTool):
         "Return will be multiple results with title, and snippet of the degree"
     )
 
-    def __init__(self):
-        self.search_degree = SearchDegree()
 
     def _run(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
-        return self.search_degree._run(query)
+        return search_degree._run(query)
 
     async def _arun(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
         raise NotImplementedError("does not support async yet")
 
@@ -100,32 +94,28 @@ class GeneralSearchResult(BaseTool):
         "Return will be multiple results with title, link and snippet"
     )
 
-    def __init__(self):
-        self.general_search = SearchGeneral
 
     def _run(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
-        return self.general_search(query)
+        return search_general._run(query)
 
     async def _arun(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
         raise NotImplementedError("does not support async yet")
 
 
 class DictionaryRun(BaseTool):
     name = "get_definition_of_word"
-    description = ("a dictionary for simple word" 
-                   "Input should be word or phrases"
-                   )
+    description = "a dictionary for simple word" "Input should be word or phrases"
 
     def _run(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
-        return SearchDefinition._run(query)
+        return search_definition._run(query)
 
     async def _arun(
-            self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
+        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
-        return await SearchDefinition._run(query)
+        return NotImplementedError("does not support async yet")

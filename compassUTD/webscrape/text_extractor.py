@@ -1,6 +1,9 @@
 import io
 import re
 
+import certifi
+import urllib3
+
 import fitz
 import requests
 from bs4 import BeautifulSoup
@@ -53,12 +56,12 @@ def extract_text_from_html(html) -> str:
 
     # Remove div with class or id containing "nav", "header", "footer", "breadcrumb"
     for element in soup.find_all(
-            re.compile(r"div"), class_=re.compile(r"nav|head|foot|breadcrumb")
+        re.compile(r"div"), class_=re.compile(r"nav|head|foot|breadcrumb")
     ):
         element.decompose()
 
     for element in soup.find_all(
-            re.compile(r"div"), id=re.compile(r"nav|head|foot|breadcrumb")
+        re.compile(r"div"), id=re.compile(r"nav|head|foot|breadcrumb")
     ):
         element.decompose()
 

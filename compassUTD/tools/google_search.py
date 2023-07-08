@@ -3,20 +3,22 @@ import re
 import requests
 from textblob import TextBlob, Word
 
-from compassUTD.webscrape.text_extractor import extract_course_description, extract_text_from_website
-from compassUTD._secret import secrets
+from CompassUTD.webscrape.text_extractor import (
+    extract_course_description,
+    extract_text_from_website,
+)
+from CompassUTD._secret import secrets
 
 
 class _Secret:
     def __init__(self):
-        self.api_key = secrets["GOOGLE_SEARCH_API"],
-        self.course_search_id = secrets["COURSE_SEARCH_ID"],
-        self.degree_search_id = secrets["DEGREE_SEARCH_ID"],
+        self.api_key = (secrets["GOOGLE_SEARCH_API"],)
+        self.course_search_id = (secrets["COURSE_SEARCH_ID"],)
+        self.degree_search_id = (secrets["DEGREE_SEARCH_ID"],)
         self.random_search_id = secrets["RANDOM_SEARCH_ID"]
 
 
 class SearchCourse(_Secret):
-
     def _run(self, query: str):
         """_summary_
 
@@ -31,7 +33,7 @@ class SearchCourse(_Secret):
             "key": self.api_key,
             "cx": self.course_search_id,
             "q": query,
-            "fields": "spelling,items(snippet,link)",
+            "fields": "spelling,items(link)",
         }
         data = requests.get(url, params=params).json()
 
@@ -46,17 +48,19 @@ class SearchCourse(_Secret):
                 continue
 
             # Get the 2-4 letter and 4 numbers code id from the link
-            course_id = re.search(r"courses/([a-zA-Z]{2,4}\d{4})", course["link"]).group(1)
+            course_id = re.search(
+                r"courses/([a-zA-Z]{2,4}\d{4})", course["link"]
+            ).group(1)
             if not course_id in courses_extracted:
                 # extract the content
                 courses_extracted.append(course_id)
-                course["snippet"] = extract_course_description(course_id)
+                course[course_id] = extract_course_description(course_id)
+            del course["link"]
 
         return data
 
 
 class SearchDegree(_Secret):
-
     def _run(self, query: str):
         """_summary_
 
@@ -83,7 +87,6 @@ class SearchDegree(_Secret):
 
 
 class SearchGeneral(_Secret):
-
     def _run(self, query: str):
         """_summary_
 
@@ -99,11 +102,12 @@ class SearchGeneral(_Secret):
             "cx": self.random_search_id,
             "q": query,
             "fields": "items(link)",
-            "num": 5,  # Number of results to return
+            "num": 1,  # Number of results to return
         }
+        
         data = requests.get(url, params=params).json()
-        for i in range(len(data["items"])):
-            url = data["items"][0]["link"]
+        for result in data["items"]:
+            url = result["link"]
             try:
                 text = extract_text_from_website(url=url)
                 return {"data": text}
@@ -112,7 +116,6 @@ class SearchGeneral(_Secret):
 
 
 class SearchDefinition:
-
     def _run(self, query: str):
         sentence = TextBlob(query).correct()  # Spell check the query
         # Split the sentence into words

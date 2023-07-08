@@ -3,9 +3,10 @@ import ratemyprofessor
 
 
 class GetProfessorRMP:
-
     def __init__(self):
-        self.rmp_id = ratemyprofessor.get_school_by_name("The University of Texas at Dallas")
+        self.rmp_id = ratemyprofessor.get_school_by_name(
+            "The University of Texas at Dallas"
+        )
 
     def search_professor_rmp(self, professor_name: str):
         """_summary_
@@ -16,11 +17,14 @@ class GetProfessorRMP:
         Returns:
             dict: return full name, courses taught, overall rating, and difficulty rating
         """
-        prof = ratemyprofessor.get_professor_by_school_and_name(self.rmp_id, professor_name)
-        courses_taught = [course.name
-                          for course in prof.courses
-                          if course.count > 1 and re.search(r"courses/([a-zA-Z]{2,4}\d{4})", course)
-                          ]
+        prof = ratemyprofessor.get_professor_by_school_and_name(
+            self.rmp_id, professor_name
+        )
+        courses_taught = [
+            course.name
+            for course in prof.courses
+            if course.count > 1 and re.search(r"courses/([a-zA-Z]{2,4}\d{4})", course)
+        ]
         favor_rating = prof.rating
         difficulty_rating = prof.difficulty
         full_name = prof.name
