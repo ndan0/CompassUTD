@@ -1,4 +1,3 @@
-import os
 from CompassUTD.langchain.agent import CompassAgent
 from CompassUTD.langchain.toolkit import CompassToolkit
 from CompassUTD._secret import google_key_path
@@ -13,8 +12,6 @@ from langchain.schema.messages import AIMessage, HumanMessage
 class CompassInference:
     def __init__(self, llm = None) -> None:
         if not llm:
-            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = google_key_path
-            
             aiplatform.init(project="aerobic-gantry-387923", location="us-central1")
 
             self.llm = VertexAI(temperature=0, max_tokens=1024, top_p=0.95, top_k=40)
