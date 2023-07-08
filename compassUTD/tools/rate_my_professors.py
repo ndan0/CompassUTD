@@ -8,7 +8,7 @@ class GetProfessorRMP:
             "The University of Texas at Dallas"
         )
 
-    def search_professor_rmp(self, professor_name: str):
+    def _run(self, professor_name: str):
         """_summary_
 
         Args:
@@ -20,6 +20,10 @@ class GetProfessorRMP:
         prof = ratemyprofessor.get_professor_by_school_and_name(
             self.rmp_id, professor_name
         )
+        
+        if not prof:
+            return {"data": "No professor found"}
+        
         courses_taught = [
             course.name
             for course in prof.courses
