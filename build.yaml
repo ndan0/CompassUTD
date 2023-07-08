@@ -1,0 +1,21 @@
+#!Replace `us-central1-docker.pkg.dev` with your region specific Container Registry domain
+
+steps:
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/serving-api', '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/serving-api']
+#Deploy container image to Cloud Run
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - 'run'
+  - 'deploy'
+  - 'compass-utd-serving-api'
+  - '--image=us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/serving-api:latest'
+  - '--allow-unauthenticated'
+  - '--platform=managed'
+  - '--region=us-central1'
+images:
+- us-central1-docker.pkg.dev/aerobic-gantry-387923/compass-utd/serving-api
