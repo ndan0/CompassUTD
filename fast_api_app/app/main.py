@@ -4,7 +4,7 @@ import secrets
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-from langchain.memory import MongoDBChatMessageHistory
+from langchain.memory import ReadOnlySharedMemory, MongoDBChatMessageHistory, ConversationBufferWindowMemory
 from langchain.schema.messages import AIMessage, HumanMessage
 
 
@@ -25,9 +25,7 @@ app.add_middleware(
 
 TOKEN_LENGTH = 16
 
-connection_string = (
-    f"mongodb+srv://{str(os.getenv('MONGODB_LOGIN'))}@{str(os.getenv('MONGODB_LOCATION'))}"
-)
+connection_string = f"mongodb+srv://{str(os.getenv('MONGODB_LOGIN'))}@{str(os.getenv('MONGODB_LOCATION'))}"
 
 LocalCompassInference = CompassInference()
 
@@ -53,7 +51,7 @@ async def inference(request: Request):
     user_message = (
         user_message if user_message and len(user_message.strip()) > 0 else None
     )
-    
+
     if not user_message:
         raise HTTPException(status_code=400, detail="Empty or invalid message")
 
@@ -61,8 +59,7 @@ async def inference(request: Request):
     token = (
         token
         if token and len(token) == TOKEN_LENGTH
-        else 
-        secrets.token_urlsafe(TOKEN_LENGTH)
+        else secrets.token_urlsafe(TOKEN_LENGTH)
     )
     # get the first 16 characters of the token
     token = token[:TOKEN_LENGTH]
@@ -71,14 +68,19 @@ async def inference(request: Request):
     message_history = MongoDBChatMessageHistory(
         connection_string=connection_string, session_id=token
     )
-    bot_message = "System currently is down. Please try again later."
+    
+    memmory_store = ConversationBufferWindowMemory(memory_key="chat_history",chat_memory=message_history, k = 4)
 
-    # Add user message
+    read_only_memory = ReadOnlySharedMemory(memory=memmory_store)
+
+    try:
+        bot_message = LocalCompassInference.run(user_message, read_only_memory)
+    except Exception as e:
+        bot_message = "Something go wrong. Try again later! Error: " + str(e)
+                
     message_history.add_user_message(user_message)
-
-    bot_message = LocalCompassInference.run(user_message, message_history)
-    # Add ai message
     message_history.add_ai_message(bot_message)
+    
 
     return {"token": token, "bot_message": bot_message}
 

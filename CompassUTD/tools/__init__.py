@@ -1,4 +1,9 @@
-from CompassUTD.tools.google_search import SearchCourse, SearchDegree, SearchDefinition, SearchGeneral
+from CompassUTD.tools.google_search import (
+    SearchCourse,
+    SearchDegree,
+    SearchDefinition,
+    SearchGeneral,
+)
 from CompassUTD.tools.rate_my_professors import GetProfessorRMP
 import urllib3
 

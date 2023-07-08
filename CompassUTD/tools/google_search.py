@@ -40,6 +40,7 @@ class SearchCourse(_Secret):
             "cx": self.course_search_id,
             "q": query,
             "fields": "spelling,items(link)",
+            "num": 2,  # Number of results to return
         }
         data = requests.get(url, params=params).json()
 
@@ -110,7 +111,7 @@ class SearchGeneral(_Secret):
             "fields": "items(link)",
             "num": 1,  # Number of results to return
         }
-        
+
         data = requests.get(url, params=params).json()
         for result in data["items"]:
             url = result["link"]

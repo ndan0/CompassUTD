@@ -20,16 +20,16 @@ class GetProfessorRMP:
         prof = ratemyprofessor.get_professor_by_school_and_name(
             self.rmp_id, professor_name
         )
-        
+
         if not prof:
             return {"data": "No professor found"}
-        
+
         courses_taught = [
             course.name
             for course in prof.courses
             if course.count > 1
-            #Check if course name is 2-3 letters followed by 4 numbers
-            and re.match(r'^[A-Za-z]{2,4}\d{4}$', course.name)
+            # Check if course name is 2-3 letters followed by 4 numbers
+            and re.match(r"^[A-Za-z]{2,4}\d{4}$", course.name)
         ]
         favor_rating = prof.rating
         difficulty_rating = prof.difficulty

@@ -15,7 +15,7 @@ import requests
 url = "http://localhost:80/inference/"
 params = {
     "token": "z3ufvLWzBf7jaRys",
-    "user_message": "Nice, where is his office?",
+    "user_message": "Compare Math 2413 to Math 2417",
 }
 
 response = requests.post(url, params=params)
