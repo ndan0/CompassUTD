@@ -30,6 +30,7 @@ connection_string = (
 
 LocalCompassInference = CompassInference()
 
+
 @app.post("/inference/")
 async def inference(request: Request):
     """_summary_

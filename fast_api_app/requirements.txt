@@ -1,0 +1,8 @@
+langchain
+google-cloud-aiplatform
+pymongo
+beautifulsoup4
+requests
+textblob 
+PyMuPDF
+RateMyProfessorAPI
