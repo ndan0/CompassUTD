@@ -30,6 +30,7 @@ class CompassAgent:
             verbose=True,
             memory=memory,
             handle_parsing_errors=False,
+            early_stopping_method = "generate"
             max_execution_time=10,
         )
 

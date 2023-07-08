@@ -25,16 +25,18 @@ class CompassInference:
 
         filter_answer = (
             self.filter_chain.run(user_message=user_message)
-        )  # TODO: write filter template prompt and run filter chain
+        ) 
 
         if "ENARC!" not in filter_answer:
             return filter_answer
         
         agent_action_result = self.langchain_agent.run(user_message)
+        
+        if 
 
         result = (
             self.result_chain.run(user_message=user_message, research_result=agent_action_result)
-        )  # TODO: write result template prompt and run result chain
+        ) 
 
         bot_message = result
 

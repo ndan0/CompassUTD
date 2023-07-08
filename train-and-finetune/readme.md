@@ -1,42 +1,40 @@
 
-1. You will work on making the prompt better, and making the stage analyzer agent
+# Refining and Training the Model
 
-![[image (3).png]]
-- [ ] Test the functionality
-	- [ ] Build a degree plan 
-	- [x] Tell me the difference CS and SWE  at UTD
 - [ ] Try out different agents Types
-- [ ] Go through documentation for tools 
-- [ ] Go through the tool kits 
-- [ ] Combine agents and vector stores 
-- [ ] Tool Retreiver 
+- [X] Go through documentation for tools
+- [X] Go through the tool kits
+- [ ] Combine agents and vector stores
+- [ ] Tool Retreiver
 - [ ] Custom LLM agents
-- [ ] Use a Chat LLM model 
+- [ ] Use a Chat LLM model
 
 # Functionality of the App
 
-1. Rate my Professor 
-2. Tell me the difference of the class
-3. Contact People at my University 
-4. List of all the professor who teach this class
+1. [X]Rate My Professor
+2. [?]Tell me the difference of the class
+3. [X]Contact People at my University
+4. [ ]List of all the professor who teach a specific class
+5. [X]List of all the classes that a professor teaches (Pulled from RMP)
 
-# API DOcs
+# Current issues with the app
 
-
+- [ ] The app are not able to filter out answer to it's greetings, and it will get confuse
+- [ ] The app sometimes does not know what to do with the answer
+- [ ] The results chain does not taken into account of student questions
+- [ ] You can do prompt injection
+- [ ] Doesnt know any alumni or Temoc (Pretty disapointing)
+- [ ] Currently, it won't be able to answer about course section or who teaching that course
+- [ ] It can't answer anything about current event, or about date of thing start (Currently working on it)
+- [ ] It sometime do get confuse about the current question, prolly due to chat history not in it
+- [ ] It sometime talk about agent max iterations error or time limit error (Need to fix that)
 
 # Notes Prompts
 
-1. Rename the tool Keyword for UTD to UTD Course API. This make the model return fewers steps to the example below for Zero Shot React Description  while the description of the function stay the same 
+1. Rename the tool Keyword and description for UTD to UTD Course API. This make the model return fewers steps to the example below for Zero Shot React Description  while the description of the function stay the same.
 
-1. The UTD Course API is the Tools names 
-2. This was the old method 
+2. Making block and allow list to filter out the prompt before having it go through the model
 
+3. Make a better prompt for the filter template
 
-2. Changing the Name of tool from Search for general information about UT Dallas to UTD Search
-	1. Plan and Execute It keep track of the search from preiovus is have the answer it can output the answers
-		1. Before
-		2. After 
-	4.  It fix the Contacting People at my University section where we want to want to email the account  advision using the Zero Shot React Description 
-		1. Before
-		2. After
-	
+4. Make a better prompt for the result template
