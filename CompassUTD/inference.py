@@ -1,16 +1,17 @@
 from CompassUTD.langchain.agent import CompassAgent
 from CompassUTD.langchain.toolkit import CompassToolkit
-from CompassUTD._secret import google_key_path
+from CompassUTD.prompt import filter_template, result_template
+
 
 from google.cloud import aiplatform
 
+from langchain import PromptTemplate, LLMChain
 from langchain.llms import VertexAI
-from langchain.memory import ConversationBufferMemory, MongoDBChatMessageHistory
-from langchain.schema.messages import AIMessage, HumanMessage
+from langchain.memory import ReadOnlySharedMemory
 
 
 class CompassInference:
-    def __init__(self, llm = None) -> None:
+    def __init__(self, llm=None) -> None:
         if not llm:
             aiplatform.init(project="aerobic-gantry-387923", location="us-central1")
 
@@ -18,23 +19,43 @@ class CompassInference:
 
         self.tools = CompassToolkit().get_tools()
 
-    def run(self, user_message: str, mongodb_past_history=None) -> str:
-        clone_memory = self._clone_message_history(mongodb_past_history)
-        agent = CompassAgent(llm=self.llm, tools=self.tools, memory=clone_memory)
+    def run(self, user_message: str, read_only_memory: ReadOnlySharedMemory) -> str:
 
-        bot_message = agent._run(user_message)
+        self._setup_langchain(read_only_memory)
+
+        filter_answer = (
+            self.filter_chain.run(user_message=user_message)
+        ) 
+
+        if "ENARC!" not in filter_answer:
+            return filter_answer
+        
+        agent_action_result = self.langchain_agent.run(user_message)
+        
+        if 
+
+        result = (
+            self.result_chain.run(user_message=user_message, research_result=agent_action_result)
+        ) 
+
+        bot_message = result
 
         return bot_message
 
-    def _clone_message_history(
-        self, message_history: MongoDBChatMessageHistory
-    ) -> ConversationBufferMemory:
-        memory_clone = ConversationBufferMemory(memory_key="chat_history")
-        if message_history:
-            for message in message_history.messages:
-                if isinstance(message, AIMessage):
-                    memory_clone.chat_memory.add_ai_message(message.content)
-                elif isinstance(message, HumanMessage):
-                    memory_clone.chat_memory.add_user_message(message.content)
+    def _setup_langchain(self, read_only_memory):
 
-        return memory_clone
+        self.filter_chain = LLMChain(
+            llm=self.llm,
+            prompt=PromptTemplate.from_template(filter_template),
+            memory=read_only_memory,
+        )
+
+        self.langchain_agent = CompassAgent(
+            llm=self.llm, tools=self.tools, memory=read_only_memory
+        )
+
+        self.result_chain = LLMChain(
+            llm=self.llm,
+            prompt=PromptTemplate.from_template(result_template),
+            memory=read_only_memory,
+        )

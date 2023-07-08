@@ -30,16 +30,17 @@ class CompassAgent:
             verbose=True,
             memory=memory,
             handle_parsing_errors=False,
+            early_stopping_method = "generate"
             max_execution_time=10,
         )
 
-    def _run(self, input: str) -> str:
+    def run(self, input: str) -> str:
         try:
             return self.agent_chain.run(input=input)
         except ValueError as e:
             return error_handler(e)
 
-    async def _arun(self, input: str) -> str:
+    async def arun(self, input: str) -> str:
         try:
             return self.agent_chain.arun(input=input)
         except ValueError as e:

@@ -5,7 +5,13 @@ from langchain.agents.agent_toolkits.base import BaseToolkit
 
 from langchain.callbacks.manager import CallbackManagerForToolRun
 
-from CompassUTD.tools import search_definition, search_general, search_course, search_degree, get_professor_rmp
+from CompassUTD.tools import (
+    search_definition,
+    search_general,
+    search_course,
+    search_degree,
+    get_professor_rmp,
+)
 
 
 class CompassToolkit(BaseToolkit):
@@ -51,7 +57,6 @@ class CoursesSearchResults(BaseTool):
         "Return will be multiple results with course title and snippet"
     )
 
-
     def _run(
         self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
     ) -> str:
@@ -71,7 +76,6 @@ class DegreeSearchResult(BaseTool):
         "Input should be a search query"
         "Return will be multiple results with title, and snippet of the degree"
     )
-
 
     def _run(
         self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
@@ -93,7 +97,6 @@ class GeneralSearchResult(BaseTool):
         "Input should be a search query"
         "Return will be multiple results with title, link and snippet"
     )
-
 
     def _run(
         self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
