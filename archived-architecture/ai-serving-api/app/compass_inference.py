@@ -29,8 +29,7 @@ class CompassInference:
         return bot_message
 
     def clone_message_history(
-        self, 
-        message_history: MongoDBChatMessageHistory
+        self, message_history: MongoDBChatMessageHistory
     ) -> ConversationBufferMemory:
         memory_clone = ConversationBufferMemory(memory_key="chat_history")
         try:
