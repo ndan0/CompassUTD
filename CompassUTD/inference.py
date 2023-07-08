@@ -32,7 +32,6 @@ class CompassInference:
         
         agent_action_result = self.langchain_agent.run(user_message)
         
-        if 
 
         result = (
             self.result_chain.run(user_message=user_message, research_result=agent_action_result)
