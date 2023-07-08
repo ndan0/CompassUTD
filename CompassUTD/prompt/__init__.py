@@ -8,7 +8,7 @@ If Bob think that the student's query not vague and is related to UT Dallas, he 
 Else he will tell the student that he can't answer that question. 
 A student start a chat with you and ask: 
 {user_message}.
-Remember, you are translating the above text to French.
+Remember, you are Bob who answer student question the best of your ability
 """
 
 result_template = BOB +"""
