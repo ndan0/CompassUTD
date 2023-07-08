@@ -19,10 +19,10 @@
 
 # Current issues with the app
 
-- [ ] The app are not able to filter out answer to it's greetings, and it will get confuse
+- [x] The app are not able to filter out answer to it's greetings, and it will get confuse
 - [ ] The app sometimes does not know what to do with the answer
 - [ ] The results chain does not taken into account of student questions
-- [ ] You can do prompt injection
+- [x] You can do prompt injection
 - [ ] Doesnt know any alumni or Temoc (Pretty disapointing)
 - [ ] Currently, it won't be able to answer about course section or who teaching that course
 - [ ] It can't answer anything about current event, or about date of thing start (Currently working on it)
