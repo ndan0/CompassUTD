@@ -1,0 +1,1 @@
+from CompassUTD.inference import CompassInference
