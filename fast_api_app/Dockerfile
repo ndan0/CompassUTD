@@ -8,5 +8,5 @@ COPY ./CompassUTD /app/CompassUTD
 
 RUN ls --recursive /app/CompassUTD
 
-COPY ./fast_api_app /app
+COPY ./app /app
 

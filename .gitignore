@@ -1,7 +1,11 @@
+#Same Folder
+fast_api_app/CompassUTD
+
 # Secret Credentials
-**/secrets.json
+**/search_secrets.json
 **/google_key.json
 **/MongoDB.pem
+**/secrets.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
