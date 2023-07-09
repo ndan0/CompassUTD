@@ -44,9 +44,10 @@ class SearchCourse(_Secret):
         }
         data = requests.get(url, params=params).json()
 
-        courses_extracted = []
-
+        if not data:
+            return "No results found."
         
+        courses_extracted = []
         
         for course in data["items"]:
             if len(courses_extracted) >= 2:
@@ -90,6 +91,8 @@ class SearchDegree(_Secret):
             "num": 1,  # Number of results to return
         }
         data = requests.get(url, params=params).json()
+        if not data:
+            return "No results found."
         url = data["items"][0]["link"]
         text = extract_text_from_website(url=url)
         
@@ -116,6 +119,8 @@ class SearchGeneral(_Secret):
         }
 
         data = requests.get(url, params=params).json()
+        if not data:
+            return "No results found."
         for result in data["items"]:
             url = result["link"]
             try:

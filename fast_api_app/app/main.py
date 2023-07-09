@@ -64,6 +64,9 @@ async def inference(request: Request):
     # get the first 16 characters of the token
     token = token[:TOKEN_LENGTH]
 
+    #Make sure the message is not too long
+    
+    
     # Connect to MongoDB
     message_history = MongoDBChatMessageHistory(
         connection_string=connection_string, session_id=token
@@ -77,7 +80,12 @@ async def inference(request: Request):
         bot_message = LocalCompassInference.run(user_message, read_only_memory)
     except Exception as e:
         bot_message = "Something go wrong. Try again later! Error: " + str(e)
-                
+        
+    if bot_message == "NOT RELEVANT":
+        return {"token": token, "bot_message": "Thanks for checking out CompassUTD. If you could kindly rephrase your question or provide specific questions related to UTD, I'll be happy to assist you."}
+    elif bot_message == "TOO LONG":
+        return {"token": token, "bot_message": "Your query is too long. Could you kindly repharse your question?."}
+        
     message_history.add_user_message(user_message)
     message_history.add_ai_message(bot_message)
     
