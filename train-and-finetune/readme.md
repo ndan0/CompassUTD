@@ -28,6 +28,8 @@
 - [ ] It can't answer anything about current event, or about date of thing start (Currently working on it)
 - [ ] It sometime do get confuse about the current question, prolly due to chat history not in it
 - [ ] It sometime talk about agent max iterations error or time limit error (Need to fix that)
+- [ ] Add Chat VertTex AI 
+- [ ] Make sure description are being used in calling for tools
 
 # Notes Prompts
 

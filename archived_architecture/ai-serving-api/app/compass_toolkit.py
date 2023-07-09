@@ -105,7 +105,7 @@ class DegreesSearchResults(BaseTool):
 
 
 class GeneralSearchResults(BaseTool):
-    name = "general_search"
+    name = "general_utd_search"
     description = (
         "a search engine for general information about UT Dallas"
         "useful for when you need to search for answer related to professor(s), staff(s), school(s), department(s), and UT Dallas"

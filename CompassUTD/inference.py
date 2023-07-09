@@ -7,6 +7,7 @@ from google.cloud import aiplatform
 
 from langchain import PromptTemplate, LLMChain
 from langchain.llms import VertexAI
+from langchain.chat_models import ChatVertexAI
 from langchain.memory import ReadOnlySharedMemory
 
 
@@ -15,7 +16,16 @@ class CompassInference:
         if not llm:
             aiplatform.init(project="aerobic-gantry-387923", location="us-central1")
 
-            self.llm = VertexAI(temperature=0, max_tokens=1024, top_p=0.95, top_k=40)
+            self.llm = VertexAI(
+                model_name = "text-bison",
+                temperature = 0.3,
+                max_output_tokens =  1024,
+                top_p=0.92,
+                top_k = 40
+            )
+            #self.chat_llm = ChatVertexAI(
+            #   
+            #)
 
         self.tools = CompassToolkit().get_tools()
 
@@ -27,7 +37,8 @@ class CompassInference:
             self.filter_chain.run(user_message=user_message)
         ) 
 
-        if "ENARC!" not in filter_answer:
+        if "Not relevant" in filter_answer:
+            print ("We are filtering")
             return filter_answer
         
         agent_action_result = self.langchain_agent.run(user_message)
