@@ -40,13 +40,17 @@ class SearchCourse(_Secret):
             "cx": self.course_search_id,
             "q": query,
             "fields": "spelling,items(link)",
-            "num": 2,  # Number of results to return
+            "num": 4,  # Number of results to return
         }
         data = requests.get(url, params=params).json()
 
         courses_extracted = []
 
+        
+        
         for course in data["items"]:
+            if len(courses_extracted) >= 2:
+                break
             course_link = course["link"]
 
             if not re.search(r"\d+$", course_link):
@@ -61,9 +65,9 @@ class SearchCourse(_Secret):
             if not course_id in courses_extracted:
                 # extract the content
                 courses_extracted.append(course_id)
-                course[course_id] = extract_course_description(course_id)
-            del course["link"]
-
+                course[course_id] = extract_course_description(course_id)        
+                del course["link"]
+                
         return data
 
 
@@ -88,9 +92,8 @@ class SearchDegree(_Secret):
         data = requests.get(url, params=params).json()
         url = data["items"][0]["link"]
         text = extract_text_from_website(url=url)
-        data["items"][0]["snippet"] = text
-        del data["items"][0]["link"]
-        return data
+        
+        return text
 
 
 class SearchGeneral(_Secret):
@@ -117,7 +120,7 @@ class SearchGeneral(_Secret):
             url = result["link"]
             try:
                 text = extract_text_from_website(url=url)
-                return {"data": text}
+                return text
             except:
                 continue
 
