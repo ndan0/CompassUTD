@@ -16,16 +16,24 @@ class CompassInference:
         if not llm:
             aiplatform.init(project="aerobic-gantry-387923", location="us-central1")
 
-            self.chat_llm = VertexAI(
+            self.filter_llm = VertexAI(
                 model_name = "text-bison",
-                temperature = 0.3,
-                max_output_tokens =  256,
-                top_p=0.92,
-                top_k = 40
+                temperature = 0,
+                max_output_tokens =  64,
+                top_p= 0,
+                top_k= 40
             )
             
             self.agent_llm = VertexAI(
                 temperature = 0,
+            )
+            
+            self.chat_llm = VertexAI(
+                model_name = "text-bison",
+                temperature = 0,
+                max_output_tokens =  256,
+                top_p= 0,
+                top_k = 40
             )
             #self.chat_llm = ChatVertexAI(
             #   
@@ -36,20 +44,20 @@ class CompassInference:
     def run(self, user_message: str, read_only_memory: ReadOnlySharedMemory) -> str:
         
         if len(user_message) > 256:
-            return "TOO LONG"
+            return "TOO_LONG"
         
         
         self._setup_langchain(read_only_memory)
         
         
-        
-        filter_answer = (
+        filter_report = (
             self.filter_chain.run(user_message=user_message)
         ) 
 
-        if "Not relevant" in filter_answer:
-            return "NOT RELEVANT"
+        print(filter_report)
         
+        if "yes" not in filter_report.lower():
+            return "MALICIOUS"
         
         agent_action_result = self.langchain_agent.run(user_message)
         
@@ -67,13 +75,14 @@ class CompassInference:
     def _setup_langchain(self, read_only_memory):
 
         self.filter_chain = LLMChain(
-            llm=self.chat_llm,
+            llm=self.filter_llm,
             prompt=PromptTemplate.from_template(filter_template),
-            memory=read_only_memory,
         )
 
         self.langchain_agent = CompassAgent(
-            llm=self.agent_llm, tools=self.tools, memory=read_only_memory
+            llm=self.agent_llm, 
+            tools=self.tools, 
+            memory=read_only_memory
         )
 
         self.result_chain = LLMChain(

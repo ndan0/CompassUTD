@@ -72,7 +72,7 @@ async def inference(request: Request):
         connection_string=connection_string, session_id=token
     )
     
-    memmory_store = ConversationBufferWindowMemory(memory_key="chat_history",chat_memory=message_history, k = 4)
+    memmory_store = ConversationBufferWindowMemory(memory_key="chat_history",chat_memory=message_history)
 
     read_only_memory = ReadOnlySharedMemory(memory=memmory_store)
 
@@ -81,10 +81,12 @@ async def inference(request: Request):
     except Exception as e:
         bot_message = "Something go wrong. Try again later! Error: " + str(e)
         
-    if bot_message == "NOT RELEVANT":
-        return {"token": token, "bot_message": "Thanks for checking out CompassUTD. If you could kindly rephrase your question or provide specific questions related to UTD, I'll be happy to assist you."}
-    elif bot_message == "TOO LONG":
-        return {"token": token, "bot_message": "Your query is too long. Could you kindly repharse your question?."}
+    if bot_message == "MALICIOUS":
+        user_message = "REDACTED - Reason: Malicious"
+        bot_message = "Please do not use this tool for malicious purposes. If you believe this is a mistake, please contact the developers."
+    elif bot_message == "TOO_LONG":
+        user_message = "REDACTED - Reason: Too long"
+        bot_message = "Your query is too long. Could you kindly repharse your question?."
         
     message_history.add_user_message(user_message)
     message_history.add_ai_message(bot_message)

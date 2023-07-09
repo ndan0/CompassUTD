@@ -26,7 +26,7 @@ class CompassToolkit(BaseToolkit):
 
 
 class ProfessorSearchResult(BaseTool):
-    name = "get_professor_rating_and_classes_taught"
+    name = "get professor rating and classes taught in RateMyProfessor.com(Not affiliated with UT Dallas)"
     description = (
         "a search engine on professor of UT Dallas on RateMyProfessor database"
         "useful for when you need to answer questions about professors ratings, difficulty, and class taught."
