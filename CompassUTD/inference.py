@@ -38,8 +38,7 @@ class CompassInference:
         ) 
 
         if "Not relevant" in filter_answer:
-            print ("We are filtering")
-            return filter_answer
+            return "Could you please provide me with some relevant questions about UTD? I'll do my best to assist you."
         
         agent_action_result = self.langchain_agent.run(user_message)
         

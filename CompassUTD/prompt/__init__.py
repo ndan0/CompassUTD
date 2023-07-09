@@ -1,9 +1,12 @@
 filter_template = """
 Determine if these message from an user is relevant or too vauge from student's query related to University of Texas at Dallas
 
+# Determine if the response relevant and not vague:
+
 How do I make a sandwhich? : Not relevant
 Can you give me a list of professor at UTD Dallas : Relevant
 How hard is this class? : Not relevant
+WHat is your name: Not relevant
 
 {user_message} :
 Rember, you are responsible determine if the response or too vague are relevant"
