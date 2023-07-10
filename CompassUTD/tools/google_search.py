@@ -3,8 +3,6 @@ import os
 import requests
 from textblob import TextBlob, Word
 
-from CompassUTD._secret import secrets
-
 from CompassUTD.webscrape.text_extractor import (
     extract_course_description,
     extract_text_from_website,
@@ -12,16 +10,10 @@ from CompassUTD.webscrape.text_extractor import (
 
 class _Secret:
     def __init__(self):
-        if secrets:
-            self.api_key = (secrets["GOOGLE_SEARCH_API"],)
-            self.course_search_id = (secrets["COURSE_SEARCH_ID"],)
-            self.degree_search_id = (secrets["DEGREE_SEARCH_ID"],)
-            self.random_search_id = secrets["RANDOM_SEARCH_ID"]
-        else:
-            self.api_key = os.environ["GOOGLE_SEARCH_API"]
-            self.course_search_id = os.environ["COURSE_SEARCH_ID"]
-            self.degree_search_id = os.environ["DEGREE_SEARCH_ID"]
-            self.random_search_id = os.environ["RANDOM_SEARCH_ID"]
+        self.api_key = os.environ["GOOGLE_SEARCH_API"]
+        self.course_search_id = os.environ["COURSE_SEARCH_ID"]
+        self.degree_search_id = os.environ["DEGREE_SEARCH_ID"]
+        self.random_search_id = os.environ["RANDOM_SEARCH_ID"]
 
 
 class SearchCourse(_Secret):
