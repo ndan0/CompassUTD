@@ -1,6 +1,7 @@
 import io
 import re
-
+import os
+import json
 import certifi
 import urllib3
 
@@ -8,6 +9,11 @@ import fitz
 import requests
 from bs4 import BeautifulSoup
 
+from CompassUTD.webscrape import *
+
+website_to_file = {
+    "https://engineering.utdallas.edu/engineering/academics/undergraduate-majors/undergrad-advising/": ecs_advising_data,
+}
 
 def extract_course_description(course_id: str) -> str:
     """
@@ -40,10 +46,13 @@ def extract_course_description(course_id: str) -> str:
     return combined_desc
 
 
+import re
+
 def extract_text_from_html(html) -> str:
     # Extract text from HTML
     soup = BeautifulSoup(html, "html.parser")
     # Remove header, footer, nav, breadcrumb
+    
     elements_to_remove = ["header", "footer", "nav", "div.breadcrumb"]
 
     for element_selector in elements_to_remove:
@@ -64,7 +73,7 @@ def extract_text_from_html(html) -> str:
         re.compile(r"div"), id=re.compile(r"nav|head|foot|breadcrumb")
     ):
         element.decompose()
-
+    
     return soup.get_text()
 
 
@@ -102,6 +111,12 @@ def extract_text_from_website(url: str) -> str:
         if not re.search(r"makepdf", url):
             url += "/makepdf"
 
+    #Check if url is a key in static/website-to-file.json
+    #If it is, return the text from the file
+    
+    if url in website_to_file:
+        return website_to_file[url]
+    
     response = requests.get(url, verify=False)
 
     if not response:
@@ -120,3 +135,23 @@ def extract_text_from_website(url: str) -> str:
     text = re.sub(r"_", "", text)
 
     return text[: 8192 * 2]  # Limit the text to 16KB due to the limit of PaLM 2 token
+
+
+def local_text_extract(fileName):
+    
+    with open(fileName, "r") as file:
+        html = file.read()
+        
+    text = extract_text_from_website(html)
+    
+    # Remove extra whitespace
+    text = re.sub(r"\s+", " ", text)
+    # Remove underscores
+    text = re.sub(r"_", "", text)
+    
+    with open(fileName, "w") as file:
+        file.write(text)
+        
+    
+if __name__ == "__main__":
+    print(extract_text_from_website("https://engineering.utdallas.edu/academics/undergraduate-majors/undergrad-advising/"))

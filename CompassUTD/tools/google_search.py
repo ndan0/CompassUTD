@@ -3,12 +3,12 @@ import os
 import requests
 from textblob import TextBlob, Word
 
+from CompassUTD._secret import secrets
+
 from CompassUTD.webscrape.text_extractor import (
     extract_course_description,
     extract_text_from_website,
 )
-from CompassUTD._secret import secrets
-
 
 class _Secret:
     def __init__(self):
@@ -123,8 +123,9 @@ class SearchGeneral(_Secret):
             return "No results found."
         for result in data["items"]:
             url = result["link"]
+            text = "The source of this information is from: " + url + ". The extracted text is: "
             try:
-                text = extract_text_from_website(url=url)
+                text += extract_text_from_website(url=url)
                 return text
             except:
                 continue
