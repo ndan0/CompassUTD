@@ -5,17 +5,18 @@
 - [X] Go through documentation for tools
 - [X] Go through the tool kits
 - [ ] Combine agents and vector stores
-- [ ] Tool Retreiver
-- [ ] Custom LLM agents
-- [ ] Use a Chat LLM model
+- [X] Tool Retreiver
+- [X] Custom LLM agents
+- [X] Use a Chat LLM model
 
 # Functionality of the App
 
-1. [X]Rate My Professor
-2. [?]Tell me the difference of the class
-3. [X]Contact People at my University
-4. [ ]List of all the professor who teach a specific class
-5. [X]List of all the classes that a professor teaches (Pulled from RMP)
+- [X] Rate My Professor
+- [X] Tell me the difference of the class
+- [X] Contact People at my University
+- [X] List of all the professor who teach a specific class
+- [X] List of all the classes that a professor teaches (Pulled from RMP)
+- [ ] List of all the professors that teach a specific class
 
 # Current issues with the app
 
@@ -23,13 +24,13 @@
 - [ ] The app sometimes does not know what to do with the answer
 - [ ] The results chain does not taken into account of student questions
 - [x] You can do prompt injection
-- [ ] Doesnt know any alumni or Temoc (Pretty disapointing)
+- [X] Doesnt know any alumni or Temoc (Pretty disapointing)
 - [ ] Currently, it won't be able to answer about course section or who teaching that course
 - [ ] It can't answer anything about current event, or about date of thing start (Currently working on it)
 - [ ] It sometime do get confuse about the current question, prolly due to chat history not in it
 - [ ] It sometime talk about agent max iterations error or time limit error (Need to fix that)
-- [ ] Add Chat VertTex AI 
-- [ ] Make sure description are being used in calling for tools
+- [X] Add Chat VertTex AI 
+- [X] Make sure description are being used in calling for tools
 
 # Notes Prompts
 
