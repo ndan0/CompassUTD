@@ -7,10 +7,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from langchain.memory import ReadOnlySharedMemory, MongoDBChatMessageHistory, ConversationBufferWindowMemory
 from langchain.schema.messages import AIMessage, HumanMessage
 
+load_dotenv()
 
 from CompassUTD import CompassInference
 
-load_dotenv()
 
 app = FastAPI()
 
@@ -82,8 +82,8 @@ async def inference(request: Request):
         bot_message = "Something go wrong. Try again later! Error: " + str(e)
         
     if bot_message == "MALICIOUS":
-        user_message = "REDACTED - Reason: Malicious"
-        bot_message = "Please do not use this tool for malicious purposes. If you believe this is a mistake, please contact the developers."
+        user_message = "REDACTED - Reason: Malicious or inappropriate content"
+        bot_message = "Please do not use this tool for inappropriate purposes. If you believe this is a mistake, please contact the developers."
     elif bot_message == "TOO_LONG":
         user_message = "REDACTED - Reason: Too long"
         bot_message = "Your query is too long. Could you kindly repharse your question?."
