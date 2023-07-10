@@ -1,3 +1,0 @@
-langchain
-google-cloud-aiplatform
-pymongo
