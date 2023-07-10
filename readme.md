@@ -35,6 +35,8 @@ By doing this, the chatbot achieve a very high accuracy. It also able to remembe
 
 ## Getting started with local testing
 
+If you are interested in the frontend, check out `client/CompassUTD` or [Arihan's github repo](https://github.com/arihanv/CompassUTD)
+
 Here are the steps to run this project locally or deploy it to Google Cloud Platform
 
 1. Create a Google Cloud Platform account and enable Vertex AI and the required APIs for the project. Then create a service account, and save it API service account key as `google_key.json` and put it in `train-and-finetune` and `fast_api_app/app` folder.
