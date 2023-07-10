@@ -24,7 +24,7 @@ Based on your research, you have gathered the following information:
 
 {research_result}
 
-Now, formulate a response to the student's question. Ensure your answer is friendly, concise, and non-repetitive. Include only information from your research. If your research yielded no results or is irrelevant, you may say you don't know. 
+Now, formulate a response to the student's question. Ensure your answer is friendly, concise, and non-repetitive. Include only information from your research. If your research yielded no results or is irrelevant, you may ask the user to rephrase their question.
 
 Student: {user_message}
 Chatbot:"""
