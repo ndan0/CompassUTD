@@ -35,7 +35,7 @@ By doing this, the chatbot achieve a very high accuracy. It also able to remembe
 
 ## Getting started with local testing
 
-If you are interested in the frontend, check out `client/CompassUTD` or [Arihan's github repo](https://github.com/arihanv/CompassUTD)
+If you are interested in the frontend, check out `front_end` or [Arihan's github repo](https://github.com/arihanv/CompassUTD)
 
 Here are the steps to run this project locally or deploy it to Google Cloud Platform
 
