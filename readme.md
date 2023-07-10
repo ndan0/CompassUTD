@@ -61,7 +61,7 @@ RANDOM_SEARCH_ID = `REPLACE`
 DEGREE_SEARCH_ID = `REPLACE`
 ```
 
-5. Now you should be able to run the project locally in `ai_sandbox.ipynb`.
+5. Now you should be able to run the project locally in `train-and-finetune/ai_sandbox.ipynb`.
 
 6. If you would like to run the FastAPI server. Run the following commands in the terminal.
 
