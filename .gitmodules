@@ -1,3 +1,3 @@
-[submodule "client/CompassUTD"]
-	path = client/CompassUTD
+[submodule "front_end"]
+	path = front_end
 	url = https://github.com/arihanv/CompassUTD
