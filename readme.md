@@ -7,7 +7,6 @@ An unofficial advisor chatbot that provide up-to-date information about The Univ
 <div style="text-align: center;">
   <img src="static/demo1.gif" alt="Demo: Inquiry about Dr.Vincent and his research" width="300"/>
   <img src="static/demo2.gif" alt="Demo: Dr. Jeffrey Schulze rating and his class HIST 1301 and HIST 1302 classes' description?" width="307"/>
-  <img src="static/demo3.gif" alt="Demo: Reason to apply to CS at UT Dallas" width="307"/>
 </div>
 
 ## Features
