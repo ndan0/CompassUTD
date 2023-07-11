@@ -2,36 +2,49 @@
 
 An unofficial advisor chatbot that provide accurate and up-to-date information about The University of Texas at Dallas powered by Langchain 🦜️🔗 and Google's PaLM 2.
 
+## Demo
+
+<div style="text-align: center;">
+  <img src="static/demo1.gif" alt="Demo: Why should I apply to the Computer Science program?" width="350"/>
+  <img src="static/demo2.gif" alt="Demo: Dr. Jeffrey Schulze rating and his class HIST 1301 and HIST 1302 classes' description?" width="350"/>
+</div>
+
 ## Features
 
 You can do all of this with CompassUTD🧭
 
-- Search for courses using natural language and short-hand name
-- Get rating for professors at UT Dallas from RateMyProfessors.com
-- Get information about UT Dallas' offered majors and minors
-- Get UT Dallas general information like tech support, parking, and more
-- Get information about staff, school and department(e.g. contact infromation, office location, hours, etc.)
-- Be informed about the latest news and events at UT Dallas
+- Searching for course information and descriptions using natural language or shorthand names (e.g., "Comp Arch" instead of "CS 2340: Computer Architecture").
+- Providing professor ratings from RateMyProfessors.com for UT Dallas faculty.
+- Offering information about the majors and minors available at UT Dallas.
+- Supplying general information about UT Dallas, such as tech support, parking, and more.
+- Providing details about staff, schools, and departments, including contact information, office locations, hours, and more.
+- Keeping users informed about the latest news and events at UT Dallas.
 - And more to come!
 
 ## Architecture
 
 ### High level architecture diagram
 
-![image](static/architecture_diagram.png)
+![High Level Architecture Diagram show how CompassUTD work](static/architecture_diagram.png)
 
 ### How does it work
 
-1. The user first interacts with the chatbot through the web app.
-2. The web app sends the user's message and a sessionId token to the FastAPI server deployed on Cloud Run.
-3. The FastAPI then check MongoDB to see if the user has previous message in the database.
-4. Vertex AI's PaLM 2 mode will receive the current message and previous message stored in MongoDB.
-5. With the current and previous message, it will design the plan to achieve the response
-6. Vertex AI's PaLM 2 will then execute it's plan through Langchain's microservices deployed on same Cloud Run instance.
-7. If the response is not sastifiable, step 5-6 will be repeated until the response is sastifiable or timeout.
-8. The response will be sent back to the FastAPI server and the webapp can call the FastAPI server for result.
+- CompassUTD utilized Google PaLM 2's reasoning capabilities to generate accurate answers.
+- PaLM 2 will ultilize Langchain's tools and the Programmable Search Engine to conduct research and locate the correct information.
+- MongoDB is employed to store chat messages, enabling PaLM 2 to retain previous conversations for contextual understanding. It also generate a SessionId token so that the user can save their chat history in the cookies and enable them to see past messages.
 
-By doing this, the chatbot achieve a very high accuracy. It also able to remember the context of the conversation and able to provide a more personalized experience.
+The process of sending a message and then arrive at a conclusion follow the paper ReAct. The steps are as follow:
+
+1. Users initiate interaction with the chatbot via the web app.
+2. The web app transmits the user's message and a sessionId token to the FastAPI server deployed on GCP's Cloud Run container.
+3. The FastAPI server checks MongoDB to determine if the user has any previous messages stored in the database.
+4. Vertex AI's PaLM 2 model receives the current message along with the previous message retrieved from MongoDB.
+5. Utilizing the current and previous messages, PaLM 2 "reason" on the appropriate course of action to generate a response. This is the "Reason" in "ReAct"
+6. PaLM 2 "acts" on its plan by utilizing Langchain's microservices deployed on the same Cloud Run instance. This is the "Action" in "ReAct"
+7. If the initial response is unsatisfactory, steps 5 and 6 (the "ReAct" plan) are repeated until a satisfactory response is obtained or a timeout occurs.
+8. The response is then sent back to the FastAPI server, allowing the web app to retrieve the result by calling the FastAPI server.
+
+This approach enables the chatbot to achieve high accuracy and retain conversation context, resulting in a more personalized user experience.
 
 ## Getting started with local testing
 
@@ -65,6 +78,8 @@ DEGREE_SEARCH_ID = `REPLACE`
 
 5. Now you should be able to run the project locally in `train-and-finetune/ai_sandbox.ipynb`.
 
+![Running the program in AI Sandbox](static/backendDemo.gif)
+
 6. If you would like to run the FastAPI server. Run the following commands in the terminal.
 
 ```
@@ -80,4 +95,4 @@ local_docker_test.cmd
 deploy_to_cloud_run.cmd
 ```
 
-7. Have fun! Open a GitHub issue if you have any questions.
+7. Have fun! Open a GitHub issue if you have any questions. 

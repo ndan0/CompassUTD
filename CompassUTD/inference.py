@@ -33,7 +33,7 @@ class CompassInference:
                 temperature = 0,
                 max_output_tokens =  256,
                 top_p= 0,
-                top_k = 40
+                top_k = 25
             )
             #self.chat_llm = ChatVertexAI(
             #   
@@ -54,7 +54,6 @@ class CompassInference:
             self.filter_chain.run(user_message=user_message)
         ) 
 
-        print(filter_report)
         
         if "yes" not in filter_report.lower():
             return "MALICIOUS"
