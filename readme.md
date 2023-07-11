@@ -1,11 +1,11 @@
 # [CompassUTD🧭](https://compass-utd.vercel.app/)
 
-An unofficial advisor chatbot that provide accurate and up-to-date information about The University of Texas at Dallas powered by Langchain 🦜️🔗 and Google's PaLM 2.
+An unofficial advisor chatbot that provide up-to-date information about The University of Texas at Dallas powered by Langchain 🦜️🔗 and Google's PaLM 2.
 
 ## Demo
 
 <div style="text-align: center;">
-  <img src="static/demo1.gif" alt="Demo: Why should I apply to the Computer Science program?" width="350"/>
+  <img src="static/demo1.gif" alt="Demo: Inquiry about Dr.Vincent and his research" width="350"/>
   <img src="static/demo2.gif" alt="Demo: Dr. Jeffrey Schulze rating and his class HIST 1301 and HIST 1302 classes' description?" width="350"/>
 </div>
 
