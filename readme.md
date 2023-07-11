@@ -25,11 +25,13 @@ You can do all of this with CompassUTD🧭
 
 ### High level architecture diagram
 
-![image](static/architecture_diagram.png)
+![High Level Architecture Diagram show how CompassUTD work](static/architecture_diagram.png)
 
 ### How does it work
 
-CompassUTD utilized Google PaLM 2's reasoning capabilities to generate accurate answers. Along with Langchain's tools and the Programmable Search Engine to conduct research and locate the correct information. After giving the answer, MongoDB is employed to store chat messages, enabling PaLM 2 to retain previous conversations for contextual understanding. For instance, if you inquire about " Who is Dr. Cogan and how hard is their class?" followed by a query on "How to contact them?". PaLM 2 can recognize that both questions are relevant to Dr. Cogan and provide details for both questions.
+- CompassUTD utilized Google PaLM 2's reasoning capabilities to generate accurate answers.
+- PaLM 2 will ultilize Langchain's tools and the Programmable Search Engine to conduct research and locate the correct information.
+- MongoDB is employed to store chat messages, enabling PaLM 2 to retain previous conversations for contextual understanding. It also generate a SessionId token so that the user can save their chat history in the cookies and enable them to see past messages.
 
 The process of sending a message and then arrive at a conclusion follow the paper ReAct. The steps are as follow:
 
@@ -76,6 +78,8 @@ DEGREE_SEARCH_ID = `REPLACE`
 
 5. Now you should be able to run the project locally in `train-and-finetune/ai_sandbox.ipynb`.
 
+![Running the program in AI Sandbox](static/backendDemo.gif)
+
 6. If you would like to run the FastAPI server. Run the following commands in the terminal.
 
 ```
@@ -91,4 +95,4 @@ local_docker_test.cmd
 deploy_to_cloud_run.cmd
 ```
 
-7. Have fun! Open a GitHub issue if you have any questions.
+7. Have fun! Open a GitHub issue if you have any questions. 
