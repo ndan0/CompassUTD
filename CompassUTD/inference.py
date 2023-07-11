@@ -54,7 +54,6 @@ class CompassInference:
             self.filter_chain.run(user_message=user_message)
         ) 
 
-        print(filter_report)
         
         if "yes" not in filter_report.lower():
             return "MALICIOUS"
